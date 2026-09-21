@@ -1,0 +1,41 @@
+name: SanMar inventory sync
+
+# Keeps Shopify inventory in step with SanMar's sanmar_dip.txt feed without
+# needing any local machine. Credentials come from repo secrets; dotenv in
+# src/ silently skips the (absent) .env file and uses these env vars instead.
+on:
+  schedule:
+    - cron: '17 * * * *' # hourly, off the top of the hour to dodge Actions congestion
+  workflow_dispatch: {} # "Run workflow" button for manual runs
+
+# Never run two syncs at once; a late run waits rather than being cancelled
+# mid-write to Shopify.
+concurrency:
+  group: inventory-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # --ignore-scripts skips building `canvas` (only used by the product
+      # import tooling, not by the inventory sync).
+      - run: npm ci --ignore-scripts
+
+      - run: node src/inventory-sync.js
+        env:
+          SHOPIFY_STORE_DOMAIN: ${{ secrets.SHOPIFY_STORE_DOMAIN }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SANMAR_SFTP_HOST: ${{ secrets.SANMAR_SFTP_HOST }}
+          SANMAR_SFTP_PORT: ${{ secrets.SANMAR_SFTP_PORT }}
+          SANMAR_SFTP_USERNAME: ${{ secrets.SANMAR_SFTP_USERNAME }}
+          SANMAR_SFTP_PASSWORD: ${{ secrets.SANMAR_SFTP_PASSWORD }}

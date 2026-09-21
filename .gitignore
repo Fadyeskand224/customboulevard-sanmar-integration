@@ -4,3 +4,10 @@ node_modules/
 dist/
 .DS_Store
 coverage/
+
+# Real SanMar downloads (large, regenerable, refreshed by every run) —
+# keep the hand-built SanMar_EPDD_sample.csv fixture tracked, ignore the rest.
+data/raw/SanMar_EPDD.csv
+data/raw/sanmar_dip.txt
+data/processed/created_products.json
+logs/

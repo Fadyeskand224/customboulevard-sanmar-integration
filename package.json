@@ -1,13 +1,28 @@
 {
   "name": "sanmar-integration",
   "version": "1.0.0",
-  "description": "",
+  "description": "SanMar product import and inventory sync for Custom Boulevard Shopify store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:sample": "node scripts/build-shopify-csv.js --sample",
+    "build:live": "node scripts/build-shopify-csv.js",
+    "import": "node index.js",
+    "import:dry": "node index.js --dry-run --skip-download",
+    "sync-inventory": "node src/inventory-sync.js",
+    "download": "node src/sftp.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "axios": "^1.6.0",
+    "canvas": "^3.2.3",
+    "csv-parse": "^5.5.0",
+    "csv-stringify": "^6.7.0",
+    "dotenv": "^16.3.0",
+    "fast-xml-parser": "^5.10.1",
+    "ssh2-sftp-client": "^10.0.3"
+  }
 }
