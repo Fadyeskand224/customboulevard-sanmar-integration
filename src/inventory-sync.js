@@ -77,40 +77,51 @@ async function parseDipFile(filePath) {
   return inventory;
 }
 
+/** Follows Shopify's Link header to the next page URL, or null on the last page. */
+function nextPageUrl(res) {
+  const match = (res.headers.link || '').match(/<([^>]+)>;\s*rel="next"/);
+  // Strip the base URL — axios baseURL will prepend it back on.
+  return match ? match[1].replace(/^https:\/\/[^/]+\/admin\/api\/\d{4}-\d{2}/, '') : null;
+}
+
 /**
  * Fetches variants for live (status=active) products only, with their
- * inventory_item_id and sku. Handles pagination to retrieve every product.
+ * inventory_item_id and sku.
  *
  * The plain /variants.json endpoint has no product-status filter and
  * returns every variant store-wide, including the couple hundred draft,
  * back-end-only products that were never meant to sync — this store keeps
- * a lot of those. Going through /products.json?status=active and
- * flattening each product's variants instead means a draft product's
- * stock is never touched, and the run has far fewer variants to walk.
+ * a lot of those. So this lists active product ids first, then fetches
+ * each product's variants from its own /products/{id}/variants.json.
+ *
+ * That per-product fetch is deliberate, not just filtering client-side —
+ * a product's `variants` array *embedded* in /products.json (or even
+ * /products/{id}.json) is silently capped at 100 regardless of how many
+ * variants it actually has, a longstanding REST quirk left over from
+ * variants' old 100-per-product limit. This store has a live product with
+ * 128 variants; fetched that way, the last 28 (here, several whole colors)
+ * would never be seen and would go stale forever. The dedicated variants
+ * endpoint has no such cap and paginates normally.
  */
 async function fetchAllVariants(client) {
-  const variants = [];
-  let url = '/products.json?limit=250&status=active&fields=id,variants';
-
+  const productIds = [];
+  let url = '/products.json?limit=250&status=active&fields=id';
   while (url) {
     const res = await client.get(url);
-    for (const product of res.data.products) {
-      for (const v of product.variants) {
-        variants.push({ id: v.id, sku: v.sku, inventory_item_id: v.inventory_item_id, inventory_quantity: v.inventory_quantity });
-      }
-    }
-
-    // Follow Shopify's Link header for pagination
-    const linkHeader = res.headers.link || '';
-    const nextMatch = linkHeader.match(/<([^>]+)>;\s*rel="next"/);
-    if (nextMatch) {
-      // Strip the base URL — axios baseURL will prepend it
-      url = nextMatch[1].replace(/^https:\/\/[^/]+\/admin\/api\/\d{4}-\d{2}/, '');
-    } else {
-      url = null;
-    }
-
+    productIds.push(...res.data.products.map((p) => p.id));
+    url = nextPageUrl(res);
     await sleep(REQUEST_DELAY_MS);
+  }
+
+  const variants = [];
+  for (const id of productIds) {
+    let vUrl = `/products/${id}/variants.json?limit=250&fields=id,sku,inventory_item_id,inventory_quantity`;
+    while (vUrl) {
+      const res = await client.get(vUrl);
+      variants.push(...res.data.variants);
+      vUrl = nextPageUrl(res);
+      await sleep(REQUEST_DELAY_MS);
+    }
   }
 
   return variants;
