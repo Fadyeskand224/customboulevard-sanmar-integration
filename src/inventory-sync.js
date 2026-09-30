@@ -46,12 +46,15 @@ function stripQuotes(s) {
  * what mapper.js/csv-converter.js now use as the Shopify Variant SKU — this
  * is the field SanMar's own documentation designates for joining files.
  *
- * Discontinued items (Discontinued_code = 'S' with quantity 0) are dropped
- * from the map entirely, per SanMar's stated inventory best practice.
+ * Discontinued (closeout) items — Discontinued_code = 'S' — stay in the map
+ * like any other SKU. An earlier version dropped them whenever ANY single
+ * warehouse row showed quantity 0, which also dropped closeout SKUs that
+ * still had stock in another warehouse: the sync then skipped them and
+ * Shopify kept a stale, oversellable quantity. Their summed quantity is
+ * correct as-is, and reaching 0 is exactly when Shopify must be told.
  */
 async function parseDipFile(filePath) {
   const inventory = new Map();
-  const discontinuedZero = new Set();
 
   const rl = readline.createInterface({
     input: fs.createReadStream(filePath),
@@ -65,35 +68,37 @@ async function parseDipFile(filePath) {
 
     const uniqueKey = stripQuotes(parts[DIP_FIELD.UNIQUE_KEY]);
     const qty = parseInt(stripQuotes(parts[DIP_FIELD.QUANTITY]), 10) || 0;
-    const discontinuedCode = stripQuotes(parts[DIP_FIELD.DISCONTINUED_CODE]);
 
     if (!uniqueKey) continue;
 
-    if (discontinuedCode === 'S' && qty === 0) {
-      discontinuedZero.add(uniqueKey);
-    }
-
     inventory.set(uniqueKey, (inventory.get(uniqueKey) || 0) + qty);
-  }
-
-  for (const key of discontinuedZero) {
-    inventory.delete(key);
   }
 
   return inventory;
 }
 
 /**
- * Fetches all Shopify variants with their inventory_item_id and sku.
- * Handles pagination to retrieve the full catalog.
+ * Fetches variants for live (status=active) products only, with their
+ * inventory_item_id and sku. Handles pagination to retrieve every product.
+ *
+ * The plain /variants.json endpoint has no product-status filter and
+ * returns every variant store-wide, including the couple hundred draft,
+ * back-end-only products that were never meant to sync — this store keeps
+ * a lot of those. Going through /products.json?status=active and
+ * flattening each product's variants instead means a draft product's
+ * stock is never touched, and the run has far fewer variants to walk.
  */
 async function fetchAllVariants(client) {
   const variants = [];
-  let url = '/variants.json?limit=250&fields=id,sku,inventory_item_id,inventory_quantity';
+  let url = '/products.json?limit=250&status=active&fields=id,variants';
 
   while (url) {
     const res = await client.get(url);
-    variants.push(...res.data.variants);
+    for (const product of res.data.products) {
+      for (const v of product.variants) {
+        variants.push({ id: v.id, sku: v.sku, inventory_item_id: v.inventory_item_id, inventory_quantity: v.inventory_quantity });
+      }
+    }
 
     // Follow Shopify's Link header for pagination
     const linkHeader = res.headers.link || '';
@@ -137,9 +142,9 @@ async function runInventorySync() {
 
   // 4. Fetch all Shopify variants
   const client = await getClient();
-  console.log('Fetching all Shopify variants...');
+  console.log('Fetching variants for live Shopify products...');
   const variants = await fetchAllVariants(client);
-  console.log(`Found ${variants.length} variants in Shopify`);
+  console.log(`Found ${variants.length} variants on live products`);
 
   // 5. Update inventory where qty differs
   let updated = 0;
