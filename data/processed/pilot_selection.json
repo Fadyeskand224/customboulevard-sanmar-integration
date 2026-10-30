@@ -1,0 +1,842 @@
+[
+  {
+    "style": "B050",
+    "title": "Port Authority - Ideal Twill Convention Tote.  B050",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 3
+  },
+  {
+    "style": "BG614",
+    "title": "Port & Co Core Fleece Sweatshirt Cinch Pack. BG614",
+    "vendor": "Port & Co",
+    "category": "Bags",
+    "variants": 6
+  },
+  {
+    "style": "BST200",
+    "title": "Sport-Tek Rec Backpack BST200",
+    "vendor": "Sport-Tek",
+    "category": "Bags",
+    "variants": 5
+  },
+  {
+    "style": "B0750",
+    "title": "Port Authority -  Essential Tote.  B0750",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 12
+  },
+  {
+    "style": "BST201",
+    "title": "Sport-Tek Club Rec Pack BST201",
+    "vendor": "Sport-Tek",
+    "category": "Bags",
+    "variants": 3
+  },
+  {
+    "style": "B100",
+    "title": "Port Authority Ideal Twill Grocery Tote.  B100",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 3
+  },
+  {
+    "style": "BST505",
+    "title": "Sport-Tek Large Rec Duffel BST505",
+    "vendor": "Sport-Tek",
+    "category": "Bags",
+    "variants": 5
+  },
+  {
+    "style": "B110",
+    "title": "Port Authority Ideal Twill Over-the-Shoulder Grocery Tote. B110",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 1
+  },
+  {
+    "style": "B118",
+    "title": "Port Authority Allie Tote. B118",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 5
+  },
+  {
+    "style": "B300",
+    "title": "Port Authority - Ideal Twill Jumbo Tote.  B300",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 2
+  },
+  {
+    "style": "B400",
+    "title": "Port Authority - Ideal Twill Two-Tone Shopping Tote.  B400",
+    "vendor": "Port Authority",
+    "category": "Bags",
+    "variants": 4
+  },
+  {
+    "style": "K570",
+    "title": "Port Authority Dimension Knit Dress Shirt. K570",
+    "vendor": "Port Authority",
+    "category": "Woven Shirts",
+    "variants": 32
+  },
+  {
+    "style": "LSP10",
+    "title": "Port & Co Women's Long Sleeve Value Denim Shirt.  LSP10",
+    "vendor": "Port & Co",
+    "category": "Woven Shirts",
+    "variants": 16
+  },
+  {
+    "style": "L570",
+    "title": "Port Authority Women's Dimension Knit Dress Shirt. L570",
+    "vendor": "Port Authority",
+    "category": "Woven Shirts",
+    "variants": 32
+  },
+  {
+    "style": "LSP11",
+    "title": "Port & Co Women's Short Sleeve Value Denim Shirt.  LSP11",
+    "vendor": "Port & Co",
+    "category": "Woven Shirts",
+    "variants": 16
+  },
+  {
+    "style": "L612",
+    "title": "Port Authority Women's 3/4-Sleeve Easy Care Shirt. L612",
+    "vendor": "Port Authority",
+    "category": "Woven Shirts",
+    "variants": 56
+  },
+  {
+    "style": "SP10",
+    "title": "Port & Co Long Sleeve Value Denim Shirt. SP10",
+    "vendor": "Port & Co",
+    "category": "Woven Shirts",
+    "variants": 20
+  },
+  {
+    "style": "BTU",
+    "title": "Port Authority Unstructured Brushed Twill Cap.  BTU",
+    "vendor": "Port Authority",
+    "category": "Caps",
+    "variants": 4
+  },
+  {
+    "style": "DT600",
+    "title": "District Distressed Cap. DT600",
+    "vendor": "District",
+    "category": "Caps",
+    "variants": 9
+  },
+  {
+    "style": "STA06",
+    "title": "Sport-Tek Gameday Scarf STA06",
+    "vendor": "Sport-Tek",
+    "category": "Caps",
+    "variants": 5
+  },
+  {
+    "style": "C110",
+    "title": "Port Authority Flexfit 110 Mesh Cap C110",
+    "vendor": "Port Authority",
+    "category": "Caps",
+    "variants": 7
+  },
+  {
+    "style": "DT607",
+    "title": "District Mesh Back Cap. DT607",
+    "vendor": "District",
+    "category": "Caps",
+    "variants": 5
+  },
+  {
+    "style": "STA46",
+    "title": "Sport-Tek  Contender  Headband. STA46",
+    "vendor": "Sport-Tek",
+    "category": "Caps",
+    "variants": 5
+  },
+  {
+    "style": "C113",
+    "title": "Port Authority  Two-Stripe Snapback Trucker Cap. C113",
+    "vendor": "Port Authority",
+    "category": "Caps",
+    "variants": 4
+  },
+  {
+    "style": "DT616",
+    "title": "District Tri-Tone Mesh Back Cap DT616",
+    "vendor": "District",
+    "category": "Caps",
+    "variants": 3
+  },
+  {
+    "style": "STC10",
+    "title": "Sport-Tek Dry Zone Nylon Cap. STC10",
+    "vendor": "Sport-Tek",
+    "category": "Caps",
+    "variants": 9
+  },
+  {
+    "style": "C301",
+    "title": "Port Authority  Flexfit 110  Performance Snapback Cap C301",
+    "vendor": "Port Authority",
+    "category": "Caps",
+    "variants": 3
+  },
+  {
+    "style": "DT618",
+    "title": "District Slouch Beanie DT618",
+    "vendor": "District",
+    "category": "Caps",
+    "variants": 4
+  },
+  {
+    "style": "STC11",
+    "title": "Sport-Tek Dry Zone Nylon Colorblock Cap. STC11",
+    "vendor": "Sport-Tek",
+    "category": "Caps",
+    "variants": 5
+  },
+  {
+    "style": "C302",
+    "title": "Port Authority  Flexfit  Melange Mesh Back Trucker Cap C302",
+    "vendor": "Port Authority",
+    "category": "Caps",
+    "variants": 6
+  },
+  {
+    "style": "DT620",
+    "title": "District Spaced-Dyed Beanie DT620",
+    "vendor": "District",
+    "category": "Caps",
+    "variants": 1
+  },
+  {
+    "style": "STC13",
+    "title": "Sport-Tek Dry Zone Colorblock Visor.  STC13",
+    "vendor": "Sport-Tek",
+    "category": "Caps",
+    "variants": 5
+  },
+  {
+    "style": "K100LS",
+    "title": "Port Authority Long Sleeve Core Classic Pique Polo. K100LS",
+    "vendor": "Port Authority",
+    "category": "Polos/Knits",
+    "variants": 40
+  },
+  {
+    "style": "KP1500",
+    "title": "Port & Co Combed Ring Spun Pique Polo. KP1500",
+    "vendor": "Port & Co",
+    "category": "Polos/Knits",
+    "variants": 48
+  },
+  {
+    "style": "L469",
+    "title": "Sport-Tek Women's Dri-Mesh V-Neck Polo.  L469",
+    "vendor": "Sport-Tek",
+    "category": "Polos/Knits",
+    "variants": 80
+  },
+  {
+    "style": "64800",
+    "title": "Gildan Softstyle Pique Polo 64800",
+    "vendor": "Gildan",
+    "category": "Polos/Knits",
+    "variants": 91
+  },
+  {
+    "style": "DT156",
+    "title": "District  Women's Perfect Tri  Hooded Cardigan. DT156",
+    "vendor": "District",
+    "category": "Polos/Knits",
+    "variants": 16
+  },
+  {
+    "style": "K100P",
+    "title": "Port Authority Core Classic Pique Pocket Polo. K100P",
+    "vendor": "Port Authority",
+    "category": "Polos/Knits",
+    "variants": 40
+  },
+  {
+    "style": "KP155",
+    "title": "Port & Co Core Blend Pique Polo. KP155",
+    "vendor": "Port & Co",
+    "category": "Polos/Knits",
+    "variants": 70
+  },
+  {
+    "style": "L474",
+    "title": "Sport-Tek Women's Dri-Mesh Pro Polo. L474",
+    "vendor": "Sport-Tek",
+    "category": "Polos/Knits",
+    "variants": 80
+  },
+  {
+    "style": "64800L",
+    "title": "Gildan Softstyle Women's Pique Polo 64800L",
+    "vendor": "Gildan",
+    "category": "Polos/Knits",
+    "variants": 45
+  },
+  {
+    "style": "K110LS",
+    "title": "Port Authority  Dry Zone  UV Micro-Mesh Long Sleeve Polo K110LS",
+    "vendor": "Port Authority",
+    "category": "Polos/Knits",
+    "variants": 48
+  },
+  {
+    "style": "KP55P",
+    "title": "Port & Co Core Blend Jersey Knit Pocket Polo. KP55P",
+    "vendor": "Port & Co",
+    "category": "Polos/Knits",
+    "variants": 63
+  },
+  {
+    "style": "L475",
+    "title": "Sport-Tek Women's Dry Zone Raglan Accent Polo. L475",
+    "vendor": "Sport-Tek",
+    "category": "Polos/Knits",
+    "variants": 64
+  },
+  {
+    "style": "85800",
+    "title": "Gildan Hammer Pique Polo 85800",
+    "vendor": "Gildan",
+    "category": "Polos/Knits",
+    "variants": 54
+  },
+  {
+    "style": "K110P",
+    "title": "Port Authority Dry Zone UV Micro-Mesh Pocket Polo. K110P",
+    "vendor": "Port Authority",
+    "category": "Polos/Knits",
+    "variants": 32
+  },
+  {
+    "style": "KP55T",
+    "title": "Port & Co Tall Core Blend Jersey Knit Polo. KP55T",
+    "vendor": "Port & Co",
+    "category": "Polos/Knits",
+    "variants": 85
+  },
+  {
+    "style": "LST405",
+    "title": "Sport-Tek  Women's PosiCharge  Tri-Blend Wicking Polo. LST405",
+    "vendor": "Sport-Tek",
+    "category": "Polos/Knits",
+    "variants": 64
+  },
+  {
+    "style": "F152",
+    "title": "Port Authority Accord Microfleece Vest F152",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 24
+  },
+  {
+    "style": "JST481",
+    "title": "Sport-Tek Repeat 1/2-Zip JST481",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 40
+  },
+  {
+    "style": "F180",
+    "title": "Port Authority Therma-Tek Fleece Jacket F180",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 32
+  },
+  {
+    "style": "JST488",
+    "title": "Sport-Tek Repeat 1/2-Zip Long Sleeve Hooded Jacket JST488",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 56
+  },
+  {
+    "style": "F181",
+    "title": "Port Authority Therma-Tek Fleece Vest F181",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 24
+  },
+  {
+    "style": "JST489",
+    "title": "Sport-Tek Repeat 1/2-Zip Short Sleeve Jacket JST489",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 56
+  },
+  {
+    "style": "F190",
+    "title": "Port Authority Plush Fleece Full-Zip Jacket F190",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 72
+  },
+  {
+    "style": "JST55",
+    "title": "Sport-Tek Waterproof Insulated Sideline Parka JST55",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 36
+  },
+  {
+    "style": "F219",
+    "title": "Port Authority Value Fleece Vest. F219",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 50
+  },
+  {
+    "style": "JST56",
+    "title": "Sport-Tek Waterproof Insulated Jacket JST56",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 56
+  },
+  {
+    "style": "F222",
+    "title": "Port Authority Pique Fleece Jacket. F222",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 16
+  },
+  {
+    "style": "JST57",
+    "title": "Sport-Tek Insulated Vest JST57",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 24
+  },
+  {
+    "style": "F226",
+    "title": "Port Authority Microfleece Vest. F226",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 24
+  },
+  {
+    "style": "JST58",
+    "title": "Sport-Tek Insulated Varsity Jacket JST58",
+    "vendor": "Sport-Tek",
+    "category": "Outerwear",
+    "variants": 64
+  },
+  {
+    "style": "F227",
+    "title": "Port Authority R-Tek Pro Fleece Full-Zip Jacket. F227",
+    "vendor": "Port Authority",
+    "category": "Outerwear",
+    "variants": 24
+  },
+  {
+    "style": "LPC098V",
+    "title": "Port & Co Women's Beach Wash Garment-Dyed V-Neck Sweatshirt LPC098V",
+    "vendor": "Port & Co",
+    "category": "Sweatshirts/Fleece",
+    "variants": 48
+  },
+  {
+    "style": "18000B",
+    "title": "Gildan Youth Heavy Blend Crewneck Sweatshirt.  18000B",
+    "vendor": "Gildan",
+    "category": "Sweatshirts/Fleece",
+    "variants": 50
+  },
+  {
+    "style": "F246",
+    "title": "Sport-Tek Tech Fleece Colorblock Hooded Sweatshirt. F246",
+    "vendor": "Sport-Tek",
+    "category": "Sweatshirts/Fleece",
+    "variants": 72
+  },
+  {
+    "style": "F130",
+    "title": "Port Authority  Cozy 1/4-Zip Fleece F130",
+    "vendor": "Port Authority",
+    "category": "Sweatshirts/Fleece",
+    "variants": 24
+  },
+  {
+    "style": "DM391",
+    "title": "District Lightweight Fleece Hoodie. DM391",
+    "vendor": "District",
+    "category": "Sweatshirts/Fleece",
+    "variants": 24
+  },
+  {
+    "style": "BC3719T",
+    "title": "BELLA+CANVAS Toddler Sponge Fleece Hooded Sweatshirt BC3719T",
+    "vendor": "Bella + Canvas",
+    "category": "Sweatshirts/Fleece",
+    "variants": 8
+  },
+  {
+    "style": "NL9000",
+    "title": "Next Level Apparel Laguna Raglan Sweatshirt NL9000",
+    "vendor": "Next Level Apparel",
+    "category": "Sweatshirts/Fleece",
+    "variants": 49
+  },
+  {
+    "style": "LPC140P",
+    "title": "Port & Co Women's Beach Wash Cloud Tie-Dye Sweatpant LPC140P",
+    "vendor": "Port & Co",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "18200",
+    "title": "Gildan Heavy Blend Sweatpant.  18200",
+    "vendor": "Gildan",
+    "category": "Sweatshirts/Fleece",
+    "variants": 36
+  },
+  {
+    "style": "F247",
+    "title": "Sport-Tek Tech Fleece 1/4-Zip Pullover. F247",
+    "vendor": "Sport-Tek",
+    "category": "Sweatshirts/Fleece",
+    "variants": 48
+  },
+  {
+    "style": "F140",
+    "title": "Port Authority Camp Fleece Snap Pullover F140",
+    "vendor": "Port Authority",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "DM392",
+    "title": "District Lightweight Fleece 1/4-Zip. DM392",
+    "vendor": "District",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "BC3719Y",
+    "title": "BELLA+CANVAS  Youth Sponge Fleece Pullover Hoodie BC3719Y",
+    "vendor": "Bella + Canvas",
+    "category": "Sweatshirts/Fleece",
+    "variants": 15
+  },
+  {
+    "style": "NL9001",
+    "title": "Next Level Apparel Santa Barbara Pocket Sweatshirt NL9001",
+    "vendor": "Next Level Apparel",
+    "category": "Sweatshirts/Fleece",
+    "variants": 42
+  },
+  {
+    "style": "LPC140V",
+    "title": "Port & Co Women's Beach Wash Cloud Tie-Dye V-Neck Sweatshirt LPC140V",
+    "vendor": "Port & Co",
+    "category": "Sweatshirts/Fleece",
+    "variants": 40
+  },
+  {
+    "style": "18200B",
+    "title": "Gildan Youth Heavy Blend Sweatpant. 18200B",
+    "vendor": "Gildan",
+    "category": "Sweatshirts/Fleece",
+    "variants": 12
+  },
+  {
+    "style": "F280",
+    "title": "Sport-Tek Super Heavyweight Crewneck Sweatshirt.  F280",
+    "vendor": "Sport-Tek",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "F151",
+    "title": "Port Authority Accord Microfleece Jacket F151",
+    "vendor": "Port Authority",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "DM493",
+    "title": "District  Women's Lightweight Fleece Hoodie. DM493",
+    "vendor": "District",
+    "category": "Sweatshirts/Fleece",
+    "variants": 32
+  },
+  {
+    "style": "BC3727",
+    "title": "BELLA+CANVAS  Unisex Jogger Sweatpants. BC3727",
+    "vendor": "Bella + Canvas",
+    "category": "Sweatshirts/Fleece",
+    "variants": 18
+  },
+  {
+    "style": "NL9002",
+    "title": "Next Level Apparel Adult Malibu Crewneck Sweatshirt NL9002",
+    "vendor": "Next Level Apparel",
+    "category": "Sweatshirts/Fleece",
+    "variants": 42
+  },
+  {
+    "style": "LPC78H",
+    "title": "Port & Co Women's Core Fleece Pullover Hooded Sweatshirt LPC78H",
+    "vendor": "Port & Co",
+    "category": "Sweatshirts/Fleece",
+    "variants": 64
+  },
+  {
+    "style": "18600B",
+    "title": "Gildan Youth Heavy Blend Full-Zip Hooded Sweatshirt. 18600B",
+    "vendor": "Gildan",
+    "category": "Sweatshirts/Fleece",
+    "variants": 25
+  },
+  {
+    "style": "F281",
+    "title": "Sport-Tek Super Heavyweight Pullover Hooded Sweatshirt.  F281",
+    "vendor": "Sport-Tek",
+    "category": "Sweatshirts/Fleece",
+    "variants": 80
+  },
+  {
+    "style": "F211",
+    "title": "Port Authority  Ultra Warm Brushed Fleece Jacket. F211",
+    "vendor": "Port Authority",
+    "category": "Sweatshirts/Fleece",
+    "variants": 16
+  },
+  {
+    "style": "LST400",
+    "title": "Sport-Tek  Women's PosiCharge  Tri-Blend Wicking Scoop Neck Raglan Tee. LST400",
+    "vendor": "Sport-Tek",
+    "category": "T-Shirts",
+    "variants": 48
+  },
+  {
+    "style": "2000L",
+    "title": "Gildan Women's Ultra Cotton 100% US Cotton T-Shirt. 2000L",
+    "vendor": "Gildan",
+    "category": "T-Shirts",
+    "variants": 70
+  },
+  {
+    "style": "LPC099TT",
+    "title": "Port & Co Women's Beach Wash Garment-Dyed Tank LPC099TT",
+    "vendor": "Port & Co",
+    "category": "T-Shirts",
+    "variants": 48
+  },
+  {
+    "style": "DM104CL",
+    "title": "DISCONTINUED District - Ladies Perfect Weight Camo Crew Tee DM104CL",
+    "vendor": "District",
+    "category": "T-Shirts",
+    "variants": 1
+  },
+  {
+    "style": "BC100B",
+    "title": "BELLA+CANVAS Infant Jersey Short Sleeve One Piece BC100B",
+    "vendor": "Bella + Canvas",
+    "category": "T-Shirts",
+    "variants": 68
+  },
+  {
+    "style": "NL1580",
+    "title": "Next Level Apparel Women's Ideal Crop Top NL1580",
+    "vendor": "Next Level Apparel",
+    "category": "T-Shirts",
+    "variants": 77
+  },
+  {
+    "style": "LST402",
+    "title": "Sport-Tek  Women's PosiCharge  Tri-Blend Wicking Tank. LST402",
+    "vendor": "Sport-Tek",
+    "category": "T-Shirts",
+    "variants": 48
+  },
+  {
+    "style": "2000T",
+    "title": "Gildan Tall 100% US Cotton T-Shirt 2000T",
+    "vendor": "Gildan",
+    "category": "T-Shirts",
+    "variants": 28
+  },
+  {
+    "style": "LPC099V",
+    "title": "Port & Co Women's Beach Wash Garment-Dyed V-Neck Tee LPC099V",
+    "vendor": "Port & Co",
+    "category": "T-Shirts",
+    "variants": 56
+  },
+  {
+    "style": "DM132",
+    "title": "District Perfect Tri Long Sleeve Tee . DM132",
+    "vendor": "District",
+    "category": "T-Shirts",
+    "variants": 96
+  },
+  {
+    "style": "BC1010",
+    "title": "BELLA+CANVAS Women's Micro Rib Baby Tee BC1010",
+    "vendor": "Bella + Canvas",
+    "category": "T-Shirts",
+    "variants": 72
+  },
+  {
+    "style": "NL3311",
+    "title": "Next Level Apparel Youth Cotton Long Sleeve Tee NL3311",
+    "vendor": "Next Level Apparel",
+    "category": "T-Shirts",
+    "variants": 30
+  },
+  {
+    "style": "LST411",
+    "title": "Sport-Tek  Women's PosiCharge  Draft Crop Tee. LST411",
+    "vendor": "Sport-Tek",
+    "category": "T-Shirts",
+    "variants": 48
+  },
+  {
+    "style": "2200",
+    "title": "Gildan - Ultra Cotton 100% US Cotton Tank Top.  2200",
+    "vendor": "Gildan",
+    "category": "T-Shirts",
+    "variants": 36
+  },
+  {
+    "style": "LPC147V",
+    "title": "Port & Co Women's Tie-Dye V-Neck Tee.  LPC147V",
+    "vendor": "Port & Co",
+    "category": "T-Shirts",
+    "variants": 24
+  },
+  {
+    "style": "DM136",
+    "title": "District  Perfect Tri 3/4-Sleeve Raglan. DM136",
+    "vendor": "District",
+    "category": "T-Shirts",
+    "variants": 80
+  },
+  {
+    "style": "BC1012",
+    "title": "BELLA+CANVAS Women's Micro Rib Spaghetti Strap Tank BC1012",
+    "vendor": "Bella + Canvas",
+    "category": "T-Shirts",
+    "variants": 72
+  },
+  {
+    "style": "NL3312",
+    "title": "Next Level Apparel Youth CVC Tee NL3312",
+    "vendor": "Next Level Apparel",
+    "category": "T-Shirts",
+    "variants": 90
+  },
+  {
+    "style": "LST420LS",
+    "title": "Sport-Tek Women's Posi-UV Pro Long Sleeve LST420LS",
+    "vendor": "Sport-Tek",
+    "category": "T-Shirts",
+    "variants": 56
+  },
+  {
+    "style": "2410",
+    "title": "Gildan - Ultra Cotton 100% US Cotton Long Sleeve T-Shirt with Pocket.  2410",
+    "vendor": "Gildan",
+    "category": "T-Shirts",
+    "variants": 42
+  },
+  {
+    "style": "LPC330V",
+    "title": "Port & Co Women's Tri-Blend V-Neck Tee. LPC330V",
+    "vendor": "Port & Co",
+    "category": "T-Shirts",
+    "variants": 64
+  },
+  {
+    "style": "DM136L",
+    "title": "District Women's Perfect Tri 3/4-Sleeve Raglan. DM136L",
+    "vendor": "District",
+    "category": "T-Shirts",
+    "variants": 72
+  },
+  {
+    "style": "JP56",
+    "title": "Port Authority Team Jacket.  JP56",
+    "vendor": "Port Authority",
+    "category": "Activewear",
+    "variants": 60
+  },
+  {
+    "style": "F243",
+    "title": "Sport-Tek Sport-Wick Fleece 1/4-Zip Pullover.  F243",
+    "vendor": "Sport-Tek",
+    "category": "Activewear",
+    "variants": 48
+  },
+  {
+    "style": "LPC380",
+    "title": "Port & Co Women's Performance Tee. LPC380",
+    "vendor": "Port & Co",
+    "category": "Activewear",
+    "variants": 64
+  },
+  {
+    "style": "18400",
+    "title": "Gildan Heavy Blend Open Bottom Sweatpant. 18400",
+    "vendor": "Gildan",
+    "category": "Activewear",
+    "variants": 18
+  },
+  {
+    "style": "DT1309",
+    "title": "District Women's Perfect Tri Fleece Short DT1309",
+    "vendor": "District",
+    "category": "Activewear",
+    "variants": 16
+  },
+  {
+    "style": "K806",
+    "title": "Port Authority Pinpoint Mesh 1/2-Zip. K806",
+    "vendor": "Port Authority",
+    "category": "Activewear",
+    "variants": 32
+  },
+  {
+    "style": "JST480",
+    "title": "Sport-Tek Repeat Jacket JST480",
+    "vendor": "Sport-Tek",
+    "category": "Activewear",
+    "variants": 40
+  },
+  {
+    "style": "DT6108",
+    "title": "District V.I.T.Fleece Short DT6108",
+    "vendor": "District",
+    "category": "Activewear",
+    "variants": 16
+  },
+  {
+    "style": "JST72",
+    "title": "Sport-Tek V-Neck Raglan Wind Shirt. JST72",
+    "vendor": "Sport-Tek",
+    "category": "Activewear",
+    "variants": 50
+  },
+  {
+    "style": "DT7509",
+    "title": "District Women's Flex High-Waist Bike Short DT7509",
+    "vendor": "District",
+    "category": "Activewear",
+    "variants": 8
+  }
+]

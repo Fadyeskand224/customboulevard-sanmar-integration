@@ -11,6 +11,30 @@ async function getImageDimensions(url) {
 }
 
 /**
+ * Downloads an image and re-encodes it as a smaller JPEG, capped at
+ * `maxDim` on its longest side. For feeding a reference photo to a
+ * third-party service that bills by storage (Zakeke) rather than the
+ * storefront itself — SanMar's product photos run 1200x1800+, and at
+ * ~90%+ smaller file size, 900px is still sharp enough for a customization
+ * canvas while cutting what gets stored per color dramatically. Quality
+ * 82 is a visually-safe JPEG setting, not a visible-degradation one.
+ */
+async function fetchAndResizeImage(url, { maxDim = 900, quality = 82 } = {}) {
+  const res = await axios.get(url, { responseType: 'arraybuffer', timeout: 30000 });
+  const img = await loadImage(Buffer.from(res.data));
+
+  const scale = Math.min(1, maxDim / Math.max(img.width, img.height));
+  const width = Math.round(img.width * scale);
+  const height = Math.round(img.height * scale);
+
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(img, 0, 0, width, height);
+
+  return { buffer: canvas.toBuffer('image/jpeg', { quality: quality / 100 }), width, height };
+}
+
+/**
  * Scales a template print-area rect (in the template image's own pixel
  * space, origin at image center — confirmed against Zakeke's live API
  * output) onto a differently-sized target image, by carrying over each
@@ -51,4 +75,4 @@ function renderMaskPng(imageSize, rect) {
   return canvas.toBuffer('image/png');
 }
 
-module.exports = { getImageDimensions, scaleRect, renderMaskPng };
+module.exports = { getImageDimensions, fetchAndResizeImage, scaleRect, renderMaskPng };

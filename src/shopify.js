@@ -256,37 +256,82 @@ async function bulkImportProducts(products, { dryRun = false } = {}) {
   return { created, skipped, errors };
 }
 
-// Draft, unpublished product used purely as a place to host generated
+// Draft, unpublished product(s) used purely as a place to host generated
 // assets (e.g. Zakeke print-area masks) that need a public HTTPS URL but
-// have no home of their own in the catalog.
-const ASSET_HOST_TITLE = '_internal-asset-host (do not publish — generated images live here)';
+// have no home of their own in the catalog. Shopify caps a product at 250
+// images, so a high-volume batch (this file's largest single consumer so
+// far: ~1,850 Zakeke masks in one run) will run the original host out of
+// room partway through — confirmed in practice, not theoretical. Once a
+// host fills up a new numbered one (" #2", " #3", ...) is created and used
+// from then on; nothing already uploaded to a full host needs to move.
+const ASSET_HOST_BASE_TITLE = '_internal-asset-host (do not publish — generated images live here)';
+const ASSET_HOST_MAX_IMAGES = 245; // small safety margin under Shopify's 250 cap
 let assetHostProductId = null;
 
-async function getAssetHostProduct(client) {
-  if (assetHostProductId) return assetHostProductId;
-  const existing = await findExistingProduct(client, ASSET_HOST_TITLE);
-  if (existing) {
-    assetHostProductId = existing.id;
+function assetHostTitle(n) {
+  return n <= 1 ? ASSET_HOST_BASE_TITLE : `${ASSET_HOST_BASE_TITLE} #${n}`;
+}
+
+/** Finds the highest-numbered existing host product, creating #1 if none exist yet. */
+async function findLatestAssetHost(client) {
+  let n = 1;
+  let latest = null;
+  for (;;) {
+    const found = await findExistingProduct(client, assetHostTitle(n));
+    if (!found) break;
+    latest = { id: found.id, n };
+    n++;
+  }
+  if (latest) return latest;
+  const res = await client.post('/products.json', {
+    product: { title: assetHostTitle(1), status: 'draft', published: false },
+  });
+  return { id: res.data.product.id, n: 1 };
+}
+
+/** Returns a host product id with room for at least one more image, rotating to a new one if needed. */
+async function getAssetHostProduct(client, { forceFresh = false } = {}) {
+  if (assetHostProductId && !forceFresh) return assetHostProductId;
+
+  const latest = await findLatestAssetHost(client);
+  const full = await client.get(`/products/${latest.id}.json`, { params: { fields: 'id,images' } });
+  if (full.data.product.images.length < ASSET_HOST_MAX_IMAGES) {
+    assetHostProductId = latest.id;
     return assetHostProductId;
   }
+
+  // Current host is full — start the next one.
   const res = await client.post('/products.json', {
-    product: { title: ASSET_HOST_TITLE, status: 'draft', published: false },
+    product: { title: assetHostTitle(latest.n + 1), status: 'draft', published: false },
   });
   assetHostProductId = res.data.product.id;
   return assetHostProductId;
 }
 
 /**
- * Uploads a buffer as an image on the internal asset-host product and
+ * Uploads a buffer as an image on an internal asset-host product and
  * returns its public Shopify CDN URL. Used to give externally-fetched
  * generated files (masks, etc.) a public URL without a dedicated file host.
+ * Rotates to a fresh host and retries once if Shopify reports the current
+ * one's 250-image cap reached (the cached host id can go stale mid-run if
+ * something else filled it since this process last checked).
  */
 async function uploadImageAsset(client, buffer, filename) {
   const productId = await getAssetHostProduct(client);
-  const res = await client.post(`/products/${productId}/images.json`, {
-    image: { attachment: buffer.toString('base64'), filename },
-  });
-  return res.data.image.src;
+  try {
+    const res = await client.post(`/products/${productId}/images.json`, {
+      image: { attachment: buffer.toString('base64'), filename },
+    });
+    return res.data.image.src;
+  } catch (err) {
+    const limitHit = err.response && JSON.stringify(err.response.data).includes('Limit of 250 media');
+    if (!limitHit) throw err;
+    const freshId = await getAssetHostProduct(client, { forceFresh: true });
+    const res = await client.post(`/products/${freshId}/images.json`, {
+      image: { attachment: buffer.toString('base64'), filename },
+    });
+    return res.data.image.src;
+  }
 }
 
 /**
@@ -312,4 +357,4 @@ async function setInventoryLevel(client, locationId, inventoryItemId, available)
   });
 }
 
-module.exports = { getClient, bulkImportProducts, getLocationId, setInventoryLevel, sleep, linkVariantImages, uploadImageAsset };
+module.exports = { getClient, getAccessToken, bulkImportProducts, getLocationId, setInventoryLevel, sleep, linkVariantImages, uploadImageAsset };

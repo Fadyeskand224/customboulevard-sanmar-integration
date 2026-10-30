@@ -65,7 +65,7 @@ function sleep(ms) {
 }
 
 /** Polls importingresult until Zakeke has processed the task (200) or gives up after maxAttempts. */
-async function pollCsvImportResult(client, taskId, { maxAttempts = 20, intervalMs = 3000 } = {}) {
+async function pollCsvImportResult(client, taskId, { maxAttempts = 180, intervalMs = 5000 } = {}) {
   for (let i = 0; i < maxAttempts; i++) {
     const res = await client.get(`/v2/csv/importingresult/${taskId}`, { validateStatus: () => true });
     if (res.status === 200) return res.data;

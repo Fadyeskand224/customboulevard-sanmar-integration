@@ -1,0 +1,769 @@
+{
+ "5000": {
+  "status": "created",
+  "id": 11219443548327,
+  "title": "Gildan ® - Heavy Cotton  100% Cotton T-Shirt. 5000",
+  "price": 22.4,
+  "colorCount": 80,
+  "variantCount": 579
+ },
+ "18000": {
+  "status": "created",
+  "id": 11219473727655,
+  "title": "Gildan ® Heavy Blend Crewneck Sweatshirt. 18000",
+  "price": 23.91,
+  "colorCount": 39,
+  "variantCount": 280
+ },
+ "18500": {
+  "status": "created",
+  "id": 11219476611239,
+  "title": "Gildan ® - Heavy Blend  Hooded Sweatshirt. 18500",
+  "price": 26.71,
+  "colorCount": 47,
+  "variantCount": 356
+ },
+ "42400": {
+  "status": "created",
+  "id": 11219419824295,
+  "title": "Gildan Performance ® Long Sleeve T-Shirt. 42400",
+  "price": 29.26,
+  "colorCount": 8,
+  "variantCount": 48
+ },
+ "64400": {
+  "status": "created",
+  "id": 11219421003943,
+  "title": "Gildan Softstyle ® Long Sleeve T-Shirt. 64400",
+  "price": 24.54,
+  "colorCount": 19,
+  "variantCount": 114
+ },
+ "64800": {
+  "status": "created",
+  "id": 11219424182439,
+  "title": "Gildan Softstyle ® Pique Polo 64800",
+  "price": 29.4,
+  "colorCount": 13,
+  "variantCount": 91
+ },
+ "NE211": {
+  "status": "created",
+  "id": 11219397345447,
+  "title": "New Era ® A-Frame Snapback Cap NE211",
+  "price": 33.63,
+  "colorCount": 6,
+  "variantCount": 6
+ },
+ "PC54": {
+  "status": "created",
+  "id": 11219449872551,
+  "title": "Port & Co ® Core Cotton Tee. PC54",
+  "price": 22.57,
+  "colorCount": 82,
+  "variantCount": 738
+ },
+ "DT5000": {
+  "status": "created",
+  "id": 11219428737191,
+  "title": "District ® The Concert Tee ® DT5000",
+  "price": 22.57,
+  "colorCount": 27,
+  "variantCount": 216
+ },
+ "BC3001CVC": {
+  "status": "created",
+  "id": 11219456917671,
+  "title": "BELLA+CANVAS ® Unisex Heather CVC Short Sleeve Tee. BC3001CVC",
+  "price": 25.38,
+  "colorCount": 83,
+  "variantCount": 669
+ },
+ "CAR54I": {
+  "status": "created",
+  "id": 11219433128103,
+  "title": "Port & Co ® Infant Core Cotton Tee. CAR54I",
+  "price": 23.27,
+  "colorCount": 10,
+  "variantCount": 30
+ },
+ "CAR54T": {
+  "status": "created",
+  "id": 11219434307751,
+  "title": "Port & Co ® Toddler Core Cotton Tee. CAR54T",
+  "price": 20.75,
+  "colorCount": 13,
+  "variantCount": 39
+ },
+ "5000B": {
+  "status": "created",
+  "id": 11219463045287,
+  "title": "Gildan ® - Youth Heavy Cotton  100% Cotton T-Shirt. 5000B",
+  "price": 22.4,
+  "colorCount": 54,
+  "variantCount": 270
+ },
+ "LPC54V": {
+  "status": "created",
+  "id": 11219437912231,
+  "title": "Port & Co ® Women's Core Cotton V-Neck Tee. LPC54V",
+  "price": 23.8,
+  "colorCount": 27,
+  "variantCount": 216
+ },
+ "NL1510": {
+  "status": "created",
+  "id": 11219466387623,
+  "title": "Next Level Apparel ® Women's Ideal Tee NL1510",
+  "price": 23.59,
+  "colorCount": 15,
+  "variantCount": 98
+ },
+ "363M": {
+  "status": "created",
+  "id": 11219481133223,
+  "title": "Jerzees Classics  Unisex Cotton T-Shirt 363M",
+  "price": 18.88,
+  "colorCount": 48,
+  "variantCount": 385
+ },
+ "PC54Y": {
+  "status": "created",
+  "id": 11219485655207,
+  "title": "Port & Co ® Youth Core Cotton Tee. PC54Y",
+  "price": 22.57,
+  "colorCount": 58,
+  "variantCount": 290
+ },
+ "BC3001Y": {
+  "status": "created",
+  "id": 11219490144423,
+  "title": "BELLA+CANVAS ® Youth Jersey Short Sleeve Tee. BC3001Y",
+  "price": 25.38,
+  "colorCount": 39,
+  "variantCount": 156
+ },
+ "LPC54": {
+  "status": "created",
+  "id": 11219492831399,
+  "title": "Port & Co ® Women's Core Cotton Tee. LPC54",
+  "price": 25.27,
+  "colorCount": 24,
+  "variantCount": 188
+ },
+ "BC6400": {
+  "status": "skipped-existing",
+  "id": 11219467436199,
+  "title": "BELLA+CANVAS ® Women's Relaxed Jersey Short Sleeve Tee. BC6400"
+ },
+ "NL5080": {
+  "status": "created",
+  "id": 11219494666407,
+  "title": "Next Level Apparel ® Women's Festival Cali Crop Tee. NL5080",
+  "price": 24.5,
+  "colorCount": 7,
+  "variantCount": 42
+ },
+ "KP55": {
+  "status": "created",
+  "id": 11219495387303,
+  "title": "Port & Co ® Core Blend Jersey Knit Polo. KP55",
+  "price": 27.37,
+  "colorCount": 21,
+  "variantCount": 210
+ },
+ "ST535": {
+  "status": "created",
+  "id": 11219497746599,
+  "title": "Sport-Tek ® Sideline Polo ST535",
+  "price": 36.08,
+  "colorCount": 5,
+  "variantCount": 40
+ },
+ "NKDC1963": {
+  "status": "created",
+  "id": 11219498336423,
+  "title": "Nike Dri-FIT Micro Pique 2.0 Polo NKDC1963",
+  "price": 52.5,
+  "colorCount": 20,
+  "variantCount": 205
+ },
+ "CT106899": {
+  "status": "created",
+  "id": 11219500630183,
+  "title": "Carhartt Force ® Sun Defender  Polo CT106899",
+  "price": 56.7,
+  "colorCount": 6,
+  "variantCount": 42
+ },
+ "PC380": {
+  "status": "created",
+  "id": 11219501351079,
+  "title": "Port & Co ® Performance Tee. PC380",
+  "price": 21.35,
+  "colorCount": 24,
+  "variantCount": 192
+ },
+ "ST350": {
+  "status": "created",
+  "id": 11219504529575,
+  "title": "Sport-Tek ® PosiCharge ® Competitor Tee. ST350",
+  "price": 23.74,
+  "colorCount": 35,
+  "variantCount": 300
+ },
+ "PC381LS": {
+  "status": "created",
+  "id": 11219507511463,
+  "title": "Port & Co ® Long Sleeve Performance Blend Tee. PC381LS",
+  "price": 21.01,
+  "colorCount": 14,
+  "variantCount": 98
+ },
+ "ST350LS": {
+  "status": "created",
+  "id": 11219508592807,
+  "title": "Sport-Tek ® Long Sleeve PosiCharge ® Competitor Tee. ST350LS",
+  "price": 25.07,
+  "colorCount": 26,
+  "variantCount": 208
+ },
+ "ST307": {
+  "status": "created",
+  "id": 11219511214247,
+  "title": "Sport-Tek ® PosiCharge ® Replica Jersey. ST307",
+  "price": 32.9,
+  "colorCount": 5,
+  "variantCount": 40
+ },
+ "CS203": {
+  "status": "created",
+  "id": 11219511804071,
+  "title": "CornerStone ® ANSI 107 Class 3 Mesh Long Sleeve Tee. CS203",
+  "price": 38.5,
+  "colorCount": 2,
+  "variantCount": 16
+ },
+ "PC54LS": {
+  "status": "created",
+  "id": 11219512098983,
+  "title": "Port & Co ® Long Sleeve Core Cotton Tee. PC54LS",
+  "price": 23.27,
+  "colorCount": 34,
+  "variantCount": 238
+ },
+ "DT109": {
+  "status": "created",
+  "id": 11219514294439,
+  "title": "District ® Perfect Blend ® CVC Long Sleeve Tee DT109",
+  "price": 22.05,
+  "colorCount": 9,
+  "variantCount": 72
+ },
+ "LPC54LS": {
+  "status": "created",
+  "id": 11219515113639,
+  "title": "Port & Co ® Women's Long Sleeve Core Cotton Tee. LPC54LS",
+  "price": 23.9,
+  "colorCount": 17,
+  "variantCount": 136
+ },
+ "NL6211": {
+  "status": "created",
+  "id": 11219516588199,
+  "title": "Next Level Apparel ® Adult CVC Long Sleeve Tee NL6211",
+  "price": 26.6,
+  "colorCount": 18,
+  "variantCount": 126
+ },
+ "CS440LSP": {
+  "status": "created",
+  "id": 11219517866151,
+  "title": "CornerStone ® Workwear Pro Long Sleeve Pocket Tee CS440LSP",
+  "price": 30.69,
+  "colorCount": 7,
+  "variantCount": 56
+ },
+ "NKBQ5230": {
+  "status": "created",
+  "id": 11219518455975,
+  "title": "Nike Dri-FIT Cotton/Poly Long Sleeve Tee. NKBQ5230",
+  "price": 49,
+  "colorCount": 6,
+  "variantCount": 48
+ },
+ "CT106921": {
+  "status": "created",
+  "id": 11219518947495,
+  "title": "Carhartt ® Long Sleeve T-Shirt CT106921",
+  "price": 55.32,
+  "colorCount": 5,
+  "variantCount": 35
+ },
+ "BC3483": {
+  "status": "created",
+  "id": 11219519471783,
+  "title": "BELLA+CANVAS ® Unisex Jersey Muscle Tank BC3483",
+  "price": 26.42,
+  "colorCount": 5,
+  "variantCount": 30
+ },
+ "ST5000": {
+  "status": "created",
+  "id": 11219519832231,
+  "title": "Sport-Tek ® PosiCharge ® Reversible Mesh Tank ST5000",
+  "price": 27.3,
+  "colorCount": 14,
+  "variantCount": 112
+ },
+ "ST352": {
+  "status": "created",
+  "id": 11219521175719,
+  "title": "Sport-Tek ® Sleeveless PosiCharge ® Competitor Tee. ST352",
+  "price": 18.86,
+  "colorCount": 8,
+  "variantCount": 64
+ },
+ "PC099TT": {
+  "status": "created",
+  "id": 11219521863847,
+  "title": "Port & Co ® Beach Wash ® Garment-Dyed Tank. PC099TT",
+  "price": 27.02,
+  "colorCount": 10,
+  "variantCount": 70
+ },
+ "LST402": {
+  "status": "created",
+  "id": 11219522715815,
+  "title": "Sport-Tek ® Women's PosiCharge ® Tri-Blend Wicking Tank. LST402",
+  "price": 25.2,
+  "colorCount": 6,
+  "variantCount": 48
+ },
+ "DT137L": {
+  "status": "created",
+  "id": 11219523502247,
+  "title": "District ® Women's Perfect Tri ® Rocker Tank. DT137L",
+  "price": 26.42,
+  "colorCount": 10,
+  "variantCount": 80
+ },
+ "BC1012": {
+  "status": "created",
+  "id": 11219524616359,
+  "title": "BELLA+CANVAS ® Women's Micro Rib Spaghetti Strap Tank BC1012",
+  "price": 26.98,
+  "colorCount": 12,
+  "variantCount": 72
+ },
+ "BC6003": {
+  "status": "created",
+  "id": 11219525763239,
+  "title": "BELLA+CANVAS ® Women's Jersey Muscle Tank. BC6003",
+  "price": 25.27,
+  "colorCount": 8,
+  "variantCount": 40
+ },
+ "BC6682": {
+  "status": "created",
+  "id": 11219526353063,
+  "title": "BELLA+CANVAS ® Women's Racerback Cropped Tank. BC6682",
+  "price": 26.25,
+  "colorCount": 11,
+  "variantCount": 55
+ },
+ "NL1533": {
+  "status": "created",
+  "id": 11219526975655,
+  "title": "Next Level Apparel ® Women's Ideal Racerback Tank NL1533",
+  "price": 22.8,
+  "colorCount": 24,
+  "variantCount": 144
+ },
+ "PC68YH": {
+  "status": "created",
+  "id": 11219528024231,
+  "title": "Port & Co ® Youth Easy Fleece Pullover Hooded Sweatshirt PC68YH",
+  "price": 32.89,
+  "colorCount": 30,
+  "variantCount": 150
+ },
+ "CAR78TH": {
+  "status": "created",
+  "id": 11219529597095,
+  "title": "Port & Co ® Toddler Core Fleece Pullover Hooded Sweatshirt. CAR78TH",
+  "price": 31.92,
+  "colorCount": 6,
+  "variantCount": 18
+ },
+ "SF500B": {
+  "status": "created",
+  "id": 11219529924775,
+  "title": "Gildan ® Youth Softstyle ® Midweight Fleece Hoodie SF500B",
+  "price": 33.25,
+  "colorCount": 15,
+  "variantCount": 75
+ },
+ "996Y": {
+  "status": "created",
+  "id": 11219530907815,
+  "title": "Jerzees ® - Youth NuBlend ® Pullover Hooded Sweatshirt. 996Y",
+  "price": 31.25,
+  "colorCount": 21,
+  "variantCount": 84
+ },
+ "BC3719Y": {
+  "status": "created",
+  "id": 11219532349607,
+  "title": "BELLA+CANVAS ® Youth Sponge Fleece Pullover Hoodie BC3719Y",
+  "price": 37.2,
+  "colorCount": 5,
+  "variantCount": 15
+ },
+ "PC78H": {
+  "status": "created",
+  "id": 11219532644519,
+  "title": "Port & Co ® Core Fleece Pullover Hooded Sweatshirt. PC78H",
+  "price": 32.42,
+  "colorCount": 74,
+  "variantCount": 542
+ },
+ "996M": {
+  "status": "created",
+  "id": 11219535757479,
+  "title": "Jerzees ® NuBlend ® Pullover Hooded Sweatshirt. 996M",
+  "price": 31.25,
+  "colorCount": 51,
+  "variantCount": 336
+ },
+ "DT6150": {
+  "status": "created",
+  "id": 11219537658023,
+  "title": "District ® V.I.T.  Heavyweight Fleece Hoodie DT6150",
+  "price": 41.4,
+  "colorCount": 25,
+  "variantCount": 200
+ },
+ "SXU009": {
+  "status": "created",
+  "id": 11219538739367,
+  "title": "Stanley/Stella ® Unisex Drummer 2.0 Hooded Sweatshirt SXU009",
+  "price": 43.79,
+  "colorCount": 17,
+  "variantCount": 154
+ },
+ "NKDR1499": {
+  "status": "created",
+  "id": 11219539689639,
+  "title": "Nike Club Fleece Sleeve Swoosh Pullover Hoodie NKDR1499",
+  "price": 70.56,
+  "colorCount": 17,
+  "variantCount": 136
+ },
+ "CTK121": {
+  "status": "created",
+  "id": 11219541295271,
+  "title": "Carhartt ® Midweight Hooded Sweatshirt. CTK121",
+  "price": 67.54,
+  "colorCount": 7,
+  "variantCount": 49
+ },
+ "BC7502": {
+  "status": "created",
+  "id": 11219541721255,
+  "title": "BELLA+CANVAS ® Women's Sponge Fleece Cropped Fleece Hoodie. BC7502",
+  "price": 39.37,
+  "colorCount": 7,
+  "variantCount": 35
+ },
+ "NKFD9889": {
+  "status": "created",
+  "id": 11219541950631,
+  "title": "Nike Women's Club Fleece Sleeve Swoosh Pullover Hoodie NKFD9889",
+  "price": 68.53,
+  "colorCount": 13,
+  "variantCount": 65
+ },
+ "DT6101": {
+  "status": "created",
+  "id": 11219542704295,
+  "title": "District ® Women's V.I.T.  Fleece Hoodie DT6101",
+  "price": 36.57,
+  "colorCount": 12,
+  "variantCount": 96
+ },
+ "SXW035": {
+  "status": "created",
+  "id": 11219543326887,
+  "title": "Stanley/Stella ® Women's Stella Nora Hooded Sweatshirt SXW035",
+  "price": 43.89,
+  "colorCount": 13,
+  "variantCount": 78
+ },
+ "RW01W": {
+  "status": "created",
+  "id": 11219543818407,
+  "title": "Champion ® Women's Reverse Weave ® Cropped Cut-Off Hooded Sweatshirt RW01W",
+  "price": 61.01,
+  "colorCount": 4,
+  "variantCount": 24
+ },
+ "DT6704": {
+  "status": "created",
+  "id": 11219543949479,
+  "title": "District ® MelloFleece Crew DT6704",
+  "price": 38.14,
+  "colorCount": 15,
+  "variantCount": 120
+ },
+ "PC90": {
+  "status": "created",
+  "id": 11219544506535,
+  "title": "Port & Co ® Essential Fleece Crewneck Sweatshirt. PC90",
+  "price": 29.29,
+  "colorCount": 17,
+  "variantCount": 118
+ },
+ "NKFD9863": {
+  "status": "created",
+  "id": 11219545391271,
+  "title": "Nike Club Fleece Sleeve Swoosh Crew NKFD9863",
+  "price": 63.44,
+  "colorCount": 11,
+  "variantCount": 88
+ },
+ "CTK124": {
+  "status": "created",
+  "id": 11219545850023,
+  "title": "Carhartt ® Midweight Crewneck Sweatshirt. CTK124",
+  "price": 64.47,
+  "colorCount": 4,
+  "variantCount": 28
+ },
+ "NEA501": {
+  "status": "created",
+  "id": 11219546177703,
+  "title": "New Era ® French Terry Crew. NEA501",
+  "price": 53.67,
+  "colorCount": 5,
+  "variantCount": 40
+ },
+ "SXW036": {
+  "status": "created",
+  "id": 11219546603687,
+  "title": "Stanley/Stella ® Women's Stella Alma Crewneck Sweatshirt SXW036",
+  "price": 43.79,
+  "colorCount": 13,
+  "variantCount": 78
+ },
+ "DT6105": {
+  "status": "created",
+  "id": 11219547226279,
+  "title": "District ® Women's V.I.T.  Fleece Crew DT6105",
+  "price": 27.58,
+  "colorCount": 6,
+  "variantCount": 48
+ },
+ "NL9087": {
+  "status": "created",
+  "id": 11219547586727,
+  "title": "Next Level Apparel ® Women's Heavyweight Sweatshirt NL9087",
+  "price": 41.89,
+  "colorCount": 12,
+  "variantCount": 84
+ },
+ "BC7505": {
+  "status": "created",
+  "id": 11219548242087,
+  "title": "BELLA+CANVAS ® Women's Raglan Pullover Sponge Fleece BC7505",
+  "price": 43.22,
+  "colorCount": 2,
+  "variantCount": 10
+ },
+ "DT1105": {
+  "status": "created",
+  "id": 11219548504231,
+  "title": "District ® Women's Perfect Weight ® Fleece Cropped Crew DT1105",
+  "price": 35.08,
+  "colorCount": 7,
+  "variantCount": 56
+ },
+ "PC78Y": {
+  "status": "created",
+  "id": 11219549028519,
+  "title": "Port & Co ® Youth Core Fleece Crewneck Sweatshirt PC78Y",
+  "price": 15.06,
+  "colorCount": 15,
+  "variantCount": 75
+ },
+ "562B": {
+  "status": "created",
+  "id": 11219549585575,
+  "title": "Jerzees ® - Youth NuBlend ® Crewneck Sweatshirt. 562B",
+  "price": 26.62,
+  "colorCount": 11,
+  "variantCount": 44
+ },
+ "DT6104Y": {
+  "status": "created",
+  "id": 11219550109863,
+  "title": "District ® Youth V.I.T.  Fleece Crew DT6104Y",
+  "price": 33.48,
+  "colorCount": 8,
+  "variantCount": 40
+ },
+ "STC75": {
+  "status": "created",
+  "id": 11219550535847,
+  "title": "Sport-Tek ® Stretch-Tek 5-Panel Trucker Cap STC75",
+  "price": 20.2,
+  "colorCount": 12,
+  "variantCount": 12
+ },
+ "C946": {
+  "status": "created",
+  "id": 11219551584423,
+  "title": "Port Authority ® Flexfit ® Melange Unipanel  Cap C946",
+  "price": 28.53,
+  "colorCount": 2,
+  "variantCount": 4
+ },
+ "STC56": {
+  "status": "created",
+  "id": 11219551617191,
+  "title": "Sport-Tek ® Flexfit ® Flat Bill Cap STC56",
+  "price": 29.51,
+  "colorCount": 5,
+  "variantCount": 10
+ },
+ "CS811": {
+  "status": "created",
+  "id": 11219551977639,
+  "title": "CornerStone ® Canvas Mesh Back Cap. CS811",
+  "price": 31.22,
+  "colorCount": 4,
+  "variantCount": 4
+ },
+ "STC55": {
+  "status": "created",
+  "id": 11219552338087,
+  "title": "Sport-Tek ® YP Classics ® Premium 5-Panel Snapback Cap STC55",
+  "price": 24.03,
+  "colorCount": 7,
+  "variantCount": 7
+ },
+ "C855": {
+  "status": "created",
+  "id": 11219552764071,
+  "title": "Port Authority ® Pro Camouflage Series Cap. C855",
+  "price": 18.14,
+  "colorCount": 8,
+  "variantCount": 8
+ },
+ "NE1091": {
+  "status": "created",
+  "id": 11219552895143,
+  "title": "New Era ® Tonal Camo Stretch Tech Mesh Cap NE1091",
+  "price": 31.25,
+  "colorCount": 5,
+  "variantCount": 15
+ },
+ "NE1130": {
+  "status": "created",
+  "id": 11219553058983,
+  "title": "New Era ® 39THIRTY ® Performance Stretch Mesh Cap NE1130",
+  "price": 36.19,
+  "colorCount": 5,
+  "variantCount": 15
+ },
+ "CT104597": {
+  "status": "created",
+  "id": 11219553812647,
+  "title": "Carhartt ® Watch Cap 2.0 CT104597",
+  "price": 42.14,
+  "colorCount": 9,
+  "variantCount": 9
+ },
+ "CT106687": {
+  "status": "created",
+  "id": 11219554205863,
+  "title": "Carhartt ® Rugged Professional  Series Cap CT106687",
+  "price": 39.97,
+  "colorCount": 4,
+  "variantCount": 4
+ },
+ "NKFB5677": {
+  "status": "created",
+  "id": 11219554336935,
+  "title": "Nike Heritage Cotton Twill Cap NKFB5677",
+  "price": 43.15,
+  "colorCount": 14,
+  "variantCount": 14
+ },
+ "NKFB5675": {
+  "status": "created",
+  "id": 11219554926759,
+  "title": "Nike Dri-FIT Team Performance Visor NKFB5675",
+  "price": 41.27,
+  "colorCount": 8,
+  "variantCount": 8
+ },
+ "NE409": {
+  "status": "created",
+  "id": 11219555057831,
+  "title": "New Era ® Pivot Flat Bill Snapback Cap NE409",
+  "price": 32.8,
+  "colorCount": 7,
+  "variantCount": 7
+ },
+ "NKFD9718": {
+  "status": "created",
+  "id": 11219555221671,
+  "title": "Nike Dri-FIT Stretch Mesh Sandwich Bill Cap NKFD9718",
+  "price": 43.02,
+  "colorCount": 6,
+  "variantCount": 18
+ },
+ "PC43Y": {
+  "status": "created",
+  "id": 11219555483815,
+  "title": "Port & Co ® Youth Easy Cotton Tee PC43Y",
+  "price": 19.21,
+  "colorCount": 53,
+  "variantCount": 265
+ },
+ "3000B": {
+  "status": "skipped-existing",
+  "id": 11219558793383,
+  "title": "Gildan ® Youth Light Cotton Tee 3000B"
+ },
+ "363Y": {
+  "status": "created",
+  "id": 11219591463079,
+  "title": "Jerzees Classics  Youth Cotton T-Shirt 363Y",
+  "price": 23.07,
+  "colorCount": 35,
+  "variantCount": 175
+ },
+ "29B": {
+  "status": "skipped-existing",
+  "id": 11219594510503,
+  "title": "Jerzees ® - Youth Dri-Power ® 50/50 Cotton/Poly T-Shirt. 29B"
+ },
+ "5100P": {
+  "status": "created",
+  "id": 11221418311847,
+  "title": "Gildan ® Heavy Cotton  Toddler T-Shirt 5100P",
+  "price": 21.28,
+  "colorCount": 8,
+  "variantCount": 40
+ },
+ "2000B": {
+  "status": "created",
+  "id": 11221418672295,
+  "title": "Gildan ® - Youth Ultra Cotton ® 100% US Cotton T-Shirt. 2000B",
+  "price": 22.57,
+  "colorCount": 31,
+  "variantCount": 155
+ }
+}

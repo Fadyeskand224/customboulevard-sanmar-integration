@@ -1,0 +1,13 @@
+{
+  "_comment": "Store color name -> SanMar COLOR_NAME, for the store's original catalog whose color names predate the SanMar feed. Used by scripts/add-back-images.js (matching is case-insensitive first).",
+  "PC54": { "Blue": "Royal", "Green": "Kelly" },
+  "5000": { "Green": "Irish Green", "Medium Grey": "Sport Grey", "Athletic Maroon": "Maroon", "Neon Pink": "Heliconia", "Royal blue": "Royal", "Yellow": "Daisy" },
+  "PC78H": { "Black": "Jet Black", "Pink": "Candy Pink" },
+  "PC54LS": { "Black": "Jet Black", "Medium Grey": "Athletic Heather", "Royal blue": "Royal" },
+  "KP55": { "Green": "Kelly", "Gray": "Athletic Heather", "Royal blue": "Royal" },
+  "18000": { "Green": "Irish Green", "Grey": "Sport Grey", "Pink": "Light Pink", "Royal blue": "Royal", "Neon Green": "Safety Green" },
+  "18500": { "Grey": "Sport Grey", "Pink": "Light Pink", "Royal blue": "Royal", "Neon Green": "Safety Green" },
+  "ST220": { "Navy": "True Navy", "Red": "True Red", "Royal blue": "True Royal" },
+  "562M": { "Neon Green": "Safety Green", "Green": "Kelly", "Orange": "Safety Orange", "Purple": "Deep Purple" },
+  "CT106677": { "Brown": "Carhartt Brown", "Navy": "Dark Navy" }
+}
