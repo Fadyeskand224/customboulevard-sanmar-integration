@@ -1,4 +1,20 @@
 {
+ "1717": {
+  "status": "created",
+  "id": 11270153142439,
+  "title": "COMFORT COLORS ® Heavyweight Ring Spun Tee. 1717",
+  "price": 25.69,
+  "colorCount": 67,
+  "variantCount": 469
+ },
+ "2000": {
+  "status": "created",
+  "id": 11270161465511,
+  "title": "Gildan ® - Ultra Cotton ® 100% US Cotton T-Shirt. 2000",
+  "price": 22.57,
+  "colorCount": 61,
+  "variantCount": 432
+ },
  "5000": {
   "status": "created",
   "id": 11219443548327,
@@ -30,6 +46,14 @@
   "price": 29.26,
   "colorCount": 8,
   "variantCount": 48
+ },
+ "64000": {
+  "status": "created",
+  "id": 11270169690279,
+  "title": "Gildan Softstyle ® T-Shirt. 64000",
+  "price": 22.57,
+  "colorCount": 75,
+  "variantCount": 517
  },
  "64400": {
   "status": "created",
@@ -765,5 +789,68 @@
   "price": 22.57,
   "colorCount": 31,
   "variantCount": 155
+ },
+ "BC3001": {
+  "status": "created",
+  "id": 11270181028007,
+  "title": "BELLA+CANVAS ® Unisex Jersey Short Sleeve Tee. BC3001",
+  "price": 25.37,
+  "colorCount": 92,
+  "variantCount": 741
+ },
+ "PC61": {
+  "status": "created",
+  "id": 11270195871911,
+  "title": "Port & Co ® Essential Tee. PC61",
+  "price": 22.57,
+  "colorCount": 62,
+  "variantCount": 558
+ },
+ "NL3600": {
+  "status": "skipped-existing",
+  "id": 11270201704615,
+  "title": "Next Level Apparel ® Adult Cotton Tee. NL3600"
+ },
+ "PC450": {
+  "status": "created",
+  "id": 11270204948647,
+  "title": "Port & Co ® Fan Favorite Tee. PC450",
+  "price": 22.75,
+  "colorCount": 53,
+  "variantCount": 477
+ },
+ "DT6000": {
+  "status": "created",
+  "id": 11270211305639,
+  "title": "District ® Very Important Tee ® . DT6000",
+  "price": 22.75,
+  "colorCount": 56,
+  "variantCount": 560
+ },
+ "29M": {
+  "status": "skipped-existing",
+  "id": 11270217597095,
+  "title": "Jerzees ® - Dri-Power ® 50/50 Cotton/Poly T-Shirt. 29M"
+ },
+ "BC3413": {
+  "status": "skipped-existing",
+  "id": 11270230212775,
+  "title": "BELLA+CANVAS ® Unisex Triblend Short Sleeve Tee. BC3413"
+ },
+ "64000L": {
+  "status": "created",
+  "id": 11270235652263,
+  "title": "Gildan Softstyle ® Women's T-Shirt. 64000L",
+  "price": 23.27,
+  "colorCount": 21,
+  "variantCount": 119
+ },
+ "64000B": {
+  "status": "created",
+  "id": 11270238797991,
+  "title": "Gildan Youth Softstyle ® T-Shirt 64000B",
+  "price": 23.59,
+  "colorCount": 38,
+  "variantCount": 190
  }
 }
