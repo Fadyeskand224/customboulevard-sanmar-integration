@@ -11,3 +11,7 @@ data/raw/SanMar_EPDD.csv
 data/raw/sanmar_dip.txt
 data/processed/created_products.json
 logs/
+
+# Regenerable audit output
+data/processed/audit-latest.json
+data/raw/*.txt

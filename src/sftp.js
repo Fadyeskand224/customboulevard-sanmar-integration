@@ -1,11 +1,29 @@
 'use strict';
 
 const SftpClient = require('ssh2-sftp-client');
+const crypto = require('crypto');
 const path = require('path');
 const fs = require('fs');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const RAW_DIR = path.join(__dirname, '../data/raw');
+
+// SanMar's SFTP server key (RSA), as served by ftp.sanmar.com:2200 on
+// 2026-10-26. Pinned so the SanMar password is only ever sent to SanMar's
+// real server — accepting any key would hand it to anyone able to intercept
+// the connection. If SanMar rotates its key the connection fails loudly with
+// the new fingerprint; verify it with SanMar, then set
+// SANMAR_SFTP_HOST_FINGERPRINT (or update this default).
+const SANMAR_HOST_FINGERPRINT = process.env.SANMAR_SFTP_HOST_FINGERPRINT || 'SHA256:5n3MbQ0zsoXr1mMpdzKWx7lSFkdHfuZC9FXYUV6ba5E';
+
+function verifySanmarHostKey(key) {
+  const fingerprint = 'SHA256:' + crypto.createHash('sha256').update(key).digest('base64').replace(/=+$/, '');
+  if (fingerprint !== SANMAR_HOST_FINGERPRINT) {
+    console.error(`SanMar SFTP host key mismatch: got ${fingerprint}, expected ${SANMAR_HOST_FINGERPRINT}. Refusing to connect.`);
+    return false;
+  }
+  return true;
+}
 
 // Real folder is "/SanMarPDD" (capital M) — verified against the live
 // server listing; the FTP guide's own text has a "Sanmar" typo for this path.
@@ -37,7 +55,7 @@ async function downloadSanmarFiles(files = FILES_TO_DOWNLOAD) {
         'diffie-hellman-group-exchange-sha1',
       ],
     },
-    hostVerifier: () => true,
+    hostVerifier: verifySanmarHostKey,
   });
 
   for (const remotePath of files) {
@@ -60,4 +78,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { downloadSanmarFiles, FILES_TO_DOWNLOAD };
+module.exports = { downloadSanmarFiles, FILES_TO_DOWNLOAD, verifySanmarHostKey };
