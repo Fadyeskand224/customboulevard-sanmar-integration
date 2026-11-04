@@ -1,68 +1,42 @@
 [
  {
-  "id": 11096989532327,
-  "title": "Port Authority Microfleece Vest. F226",
-  "handle": "port-authority-microfleece-vest-f226",
-  "special": false
+  "id": "8641201602727",
+  "title": "Jersey Sport-Tek PosiCharge Tough Mesh Full Button",
+  "status": 200
  },
  {
-  "id": 11096989466791,
-  "title": "Sport-Tek V-Neck Raglan Wind Shirt. JST72",
-  "handle": "sport-tek-v-neck-raglan-wind-shirt-jst72",
-  "special": false
+  "id": "11096782110887",
+  "title": "Port Authority Team Jacket. JP56",
+  "status": 200
  },
  {
-  "id": 11096984944807,
-  "title": "District Distressed Cap. DT600",
-  "handle": "district-distressed-cap-dt600",
-  "special": false
+  "id": "11096983077031",
+  "title": "Port & Co Women's Long Sleeve Value Denim Shirt. LSP10",
+  "status": 200
  },
  {
-  "id": 11096986321063,
-  "title": "Port Authority Value Fleece Vest. F219",
-  "handle": "port-authority-value-fleece-vest-f219",
-  "special": false
+  "id": "11096983208103",
+  "title": "Gildan - Ultra Cotton 100% US Cotton Tank Top. 2200",
+  "status": 200
  },
  {
-  "id": 11096989434023,
-  "title": "Sport-Tek Dry Zone Nylon Cap. STC10",
-  "handle": "sport-tek-dry-zone-nylon-cap-stc10",
-  "special": false
+  "id": "11096984715431",
+  "title": "Sport-Tek Women's Dri-Mesh V-Neck Polo. L469",
+  "status": 200
  },
  {
-  "id": 11096988516519,
-  "title": "Sport-Tek Women's Dry Zone Raglan Accent Polo. L475",
-  "handle": "sport-tek-womens-dry-zone-raglan-accent-polo-l475",
-  "special": false
+  "id": "11096987435175",
+  "title": "Port & Co Women's Short Sleeve Value Denim Shirt. LSP11",
+  "status": 200
  },
  {
-  "id": 8517214830759,
-  "title": "Polo Port & Company Core Blend Jersey Knit",
-  "handle": "port-company-core-blend-jersey-knit-polo",
-  "special": false
+  "id": "11219511804071",
+  "title": "CornerStone ® ANSI 107 Class 3 Mesh Long Sleeve Tee. CS203",
+  "status": 200
  },
  {
-  "id": 8641097433255,
-  "title": "V-Neck Tee Bella + Canvas Women's Relaxed Heather",
-  "handle": "bella-canvas-womens-relaxed-heather-cvc-v-neck-tee",
-  "special": false
- },
- {
-  "id": 8641185349799,
-  "title": "Hoodie Gildan Heavy Blend",
-  "handle": "custom-gildan-heavy-blend-hoodie",
-  "special": false
- },
- {
-  "id": 8460769558695,
-  "title": "SnapBack Hats",
-  "handle": "snapback-hats",
-  "special": false
- },
- {
-  "id": 8460769886375,
-  "title": "Trucker Hats",
-  "handle": "trucker-hats",
-  "special": false
+  "id": "11219519832231",
+  "title": "Sport-Tek ® PosiCharge ® Reversible Mesh Tank ST5000",
+  "status": 200
  }
 ]

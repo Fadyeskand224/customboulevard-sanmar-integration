@@ -1,826 +1,702 @@
 [
  {
-  "zk": 606600,
-  "pub": "Published",
-  "name": "SnapBack Hats",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8460769558695"
- },
- {
-  "zk": 606601,
-  "pub": "Published",
-  "name": "Trucker Hats",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8460769886375"
- },
- {
   "zk": 611089,
   "pub": "Published",
   "name": "Port & Company Core Cotton T-shirt",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8478324129959"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10008385,
   "pub": "Published",
   "name": "Gildan - Heavy Cotton 100% Cotton T-Shirt",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8516418044071"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10008394,
   "pub": "Published",
   "name": "Port & Company Core Fleece Pullover Hoodie",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8516721541287"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10008527,
   "pub": "Published",
   "name": "Port & Company Core Cotton Long Sleeve T-shirt",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8517197463719"
- },
- {
-  "zk": 10008535,
-  "pub": "Published",
-  "name": "Port & Company Core Blend Jersey Knit Polo",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8517214830759"
- },
- {
-  "zk": 10054929,
-  "pub": "UnPublished",
-  "name": "Port & company KP55",
-  "shop": "DRAFT",
-  "kind": "other draft",
-  "code": "8616212037799"
- },
- {
-  "zk": 10060666,
-  "pub": "Published",
-  "name": "Limited Time Offer: Premium Tees for Only $15",
-  "shop": "DRAFT",
-  "kind": "other draft",
-  "code": "8640204243111"
- },
- {
-  "zk": 10060837,
-  "pub": "Published",
-  "name": "Bella + Canvas Women's Relaxed Heather CVC V-Neck Tee",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641097433255"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060839,
   "pub": "Published",
   "name": "Gildan Heavy Blend Fleece Sweatshirt",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641141866663"
- },
- {
-  "zk": 10060842,
-  "pub": "Published",
-  "name": "Custom Gildan Heavy Blend Hoodie",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641185349799"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060844,
   "pub": "Published",
   "name": "Sport-Tek PosiCharge Tough Mesh Full-Button Jersey",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641201602727"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060876,
   "pub": "Published",
   "name": "Jerzees NuBlend Fleece Sweatshirt",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641306525863"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060883,
   "pub": "Published",
   "name": "Carhartt Quilted-Flannel-Lined Duck Active Jacket",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641370751143"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060900,
   "pub": "Published",
   "name": "Medium Cotton Canvas Tote Bag",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641415217319"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10060901,
   "pub": "Published",
   "name": "Ceramic Mug",
-  "shop": "ACTIVE",
-  "kind": "older live",
-  "code": "8641416429735"
- },
- {
-  "zk": 10093190,
-  "pub": "UnPublished",
-  "name": "Port Authority Ideal Twill Grocery Tote. B100",
-  "shop": "-",
-  "kind": "orphan (no Shopify product)",
-  "code": "11096781521063"
- },
- {
-  "zk": 10093191,
-  "pub": "UnPublished",
-  "name": "Port Authority - Ideal Twill Jumbo Tote. B300",
-  "shop": "-",
-  "kind": "orphan (no Shopify product)",
-  "code": "11096983044263"
- },
- {
-  "zk": 10093212,
-  "pub": "Published",
-  "name": "Port & Co Long Sleeve Value Denim Shirt. SP10",
-  "shop": "-",
-  "kind": "orphan (no Shopify product)",
-  "code": "11096782078119"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093229,
   "pub": "Published",
   "name": "Port Authority Unstructured Brushed Twill Cap. BTU",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096782012583"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093230,
   "pub": "Published",
   "name": "Port Authority Team Jacket. JP56",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096782110887"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093231,
   "pub": "Published",
   "name": "Gildan Youth Heavy Blend Crewneck Sweatshirt. 18000B",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096783814823"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093232,
   "pub": "Published",
   "name": "Port & Co Women's Long Sleeve Value Denim Shirt. LSP10",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096983077031"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093233,
   "pub": "Published",
   "name": "Gildan Heavy Blend Sweatpant. 18200",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096983109799"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093234,
   "pub": "Published",
   "name": "Gildan - Ultra Cotton 100% US Cotton Tank Top. 2200",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096983208103"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093235,
   "pub": "Published",
   "name": "Sport-Tek Women's Dri-Mesh V-Neck Polo. L469",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096984715431"
- },
- {
-  "zk": 10093236,
-  "pub": "Published",
-  "name": "District Distressed Cap. DT600",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096984944807"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093237,
   "pub": "Published",
   "name": "Sport-Tek Sport-Wick Fleece 1/4-Zip Pullover. F243",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096985272487"
- },
- {
-  "zk": 10093238,
-  "pub": "Published",
-  "name": "Port Authority Value Fleece Vest. F219",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096986321063"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093239,
   "pub": "Published",
   "name": "Port & Co Women's Short Sleeve Value Denim Shirt. LSP11",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096987435175"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093240,
   "pub": "Published",
   "name": "Sport-Tek Super Heavyweight Crewneck Sweatshirt. F280",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096987631783"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093241,
   "pub": "Published",
   "name": "Gildan Women's Ultra Cotton 100% US Cotton T-Shirt. 2000L",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096987730087"
- },
- {
-  "zk": 10093242,
-  "pub": "Published",
-  "name": "Sport-Tek Women's Dry Zone Raglan Accent Polo. L475",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096988516519"
- },
- {
-  "zk": 10093243,
-  "pub": "Published",
-  "name": "Sport-Tek Dry Zone Nylon Cap. STC10",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096989434023"
- },
- {
-  "zk": 10093244,
-  "pub": "Published",
-  "name": "Sport-Tek V-Neck Raglan Wind Shirt. JST72",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096989466791"
- },
- {
-  "zk": 10093245,
-  "pub": "Published",
-  "name": "Port Authority Microfleece Vest. F226",
-  "shop": "ACTIVE",
-  "kind": "original SanMar (live)",
-  "code": "11096989532327"
+  "batch": false,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10093247,
   "pub": "Published",
   "name": "Port Authority ® Ideal Twill Grocery Tote. B100",
-  "shop": "DRAFT",
-  "kind": "original SanMar (live)",
-  "code": "11099462336679"
- },
- {
-  "zk": 10093248,
-  "pub": "Published",
-  "name": "Port Authority ® - Ideal Twill Jumbo Tote. B300",
-  "shop": "DRAFT",
-  "kind": "original SanMar (live)",
-  "code": "11099462369447"
- },
- {
-  "zk": 10093249,
-  "pub": "Published",
-  "name": "Port & Co Long Sleeve Value Denim Shirt. SP10",
-  "shop": "DRAFT",
-  "kind": "other draft",
-  "code": "11099462402215"
+  "batch": false,
+  "shop": "DRAFT"
  },
  {
   "zk": 10101456,
   "pub": "Published",
   "name": "New Era ® A-Frame Snapback Cap NE211",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219397345447"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101457,
   "pub": "Published",
   "name": "Sport-Tek ® PosiCharge ® Replica Jersey. ST307",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219511214247"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101458,
   "pub": "Published",
   "name": "Carhartt ® Watch Cap 2.0 CT104597",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219553812647"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101459,
   "pub": "Published",
   "name": "Nike Dri-FIT Team Performance Visor NKFB5675",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219554926759"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101596,
   "pub": "Published",
   "name": "Gildan ® - Heavy Cotton  100% Cotton T-Shirt. 5000",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219443548327"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101597,
   "pub": "Published",
   "name": "Gildan ® Heavy Blend Crewneck Sweatshirt. 18000",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219473727655"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101598,
   "pub": "Published",
   "name": "Gildan ® - Heavy Blend  Hooded Sweatshirt. 18500",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219476611239"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101599,
   "pub": "Published",
   "name": "Gildan Performance ® Long Sleeve T-Shirt. 42400",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219419824295"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101600,
   "pub": "Published",
   "name": "Gildan Softstyle ® Long Sleeve T-Shirt. 64400",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219421003943"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101601,
   "pub": "Published",
   "name": "Gildan Softstyle ® Pique Polo 64800",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219424182439"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101602,
   "pub": "Published",
   "name": "Port & Co ® Core Cotton Tee. PC54",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219449872551"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101603,
   "pub": "Published",
   "name": "District ® The Concert Tee ® DT5000",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219428737191"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101604,
   "pub": "Published",
-  "name": "BELLA+CANVAS ® Unisex Heather CVC Short Sleeve Tee. BC3001",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219456917671"
+  "name": "BELLA+CANVAS ® Unisex Heather CVC Short Sleeve Tee. BC3001CVC",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10101605,
   "pub": "Published",
   "name": "Port & Co ® Infant Core Cotton Tee. CAR54I",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219433128103"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103659,
   "pub": "Published",
   "name": "Sport-Tek ® Sideline Polo ST535",
-  "shop": "ACTIVE",
-  "kind": "BATCH",
-  "code": "11219497746599"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103665,
   "pub": "Published",
   "name": "Port & Co ® Toddler Core Cotton Tee. CAR54T",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219434307751"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103666,
   "pub": "Published",
   "name": "Port & Co ® Women's Core Cotton V-Neck Tee. LPC54V",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219437912231"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103668,
   "pub": "Published",
   "name": "Gildan ® - Youth Heavy Cotton  100% Cotton T-Shirt. 5000B",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219463045287"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103670,
   "pub": "Published",
   "name": "Next Level Apparel ® Women's Ideal Tee NL1510",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219466387623"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103671,
   "pub": "Published",
-  "name": "BELLA+CANVAS ® Women's Relaxed Jersey Short Sleeve Tee. BC",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219467436199"
+  "name": "BELLA+CANVAS ® Women's Relaxed Jersey Short Sleeve Tee. BC6400",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103673,
   "pub": "Published",
   "name": "Jerzees Classics  Unisex Cotton T-Shirt 363M",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219481133223"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103674,
   "pub": "Published",
   "name": "Port & Co ® Youth Core Cotton Tee. PC54Y",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219485655207"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103675,
   "pub": "Published",
   "name": "BELLA+CANVAS ® Youth Jersey Short Sleeve Tee. BC3001Y",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219490144423"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103676,
   "pub": "Published",
   "name": "Port & Co ® Women's Core Cotton Tee. LPC54",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219492831399"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103677,
   "pub": "Published",
-  "name": "Next Level Apparel ® Women's Festival Cali Crop Tee. NL508",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219494666407"
+  "name": "Next Level Apparel ® Women's Festival Cali Crop Tee. NL5080",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103678,
   "pub": "Published",
   "name": "Port & Co ® Core Blend Jersey Knit Polo. KP55",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219495387303"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103679,
   "pub": "Published",
   "name": "Nike Dri-FIT Micro Pique 2.0 Polo NKDC1963",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219498336423"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103680,
   "pub": "Published",
   "name": "Carhartt Force ® Sun Defender  Polo CT106899",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219500630183"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103681,
   "pub": "Published",
   "name": "Port & Co ® Performance Tee. PC380",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219501351079"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103682,
   "pub": "Published",
   "name": "Sport-Tek ® PosiCharge ® Competitor Tee. ST350",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219504529575"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103683,
   "pub": "Published",
   "name": "Port & Co ® Long Sleeve Performance Blend Tee. PC381LS",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219507511463"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103684,
   "pub": "Published",
-  "name": "Sport-Tek ® Long Sleeve PosiCharge ® Competitor Tee. ST35",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219508592807"
+  "name": "Sport-Tek ® Long Sleeve PosiCharge ® Competitor Tee. ST350LS",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103686,
   "pub": "Published",
   "name": "CornerStone ® ANSI 107 Class 3 Mesh Long Sleeve Tee. CS203",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219511804071"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103687,
   "pub": "Published",
   "name": "Port & Co ® Long Sleeve Core Cotton Tee. PC54LS",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219512098983"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103688,
   "pub": "Published",
   "name": "District ® Perfect Blend ® CVC Long Sleeve Tee DT109",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219514294439"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103689,
   "pub": "Published",
   "name": "Port & Co ® Women's Long Sleeve Core Cotton Tee. LPC54LS",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219515113639"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103690,
   "pub": "Published",
   "name": "Next Level Apparel ® Adult CVC Long Sleeve Tee NL6211",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219516588199"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103691,
   "pub": "Published",
   "name": "CornerStone ® Workwear Pro Long Sleeve Pocket Tee CS440LSP",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219517866151"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103693,
   "pub": "Published",
   "name": "Nike Dri-FIT Cotton/Poly Long Sleeve Tee. NKBQ5230",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219518455975"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103694,
   "pub": "Published",
   "name": "Carhartt ® Long Sleeve T-Shirt CT106921",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219518947495"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103695,
   "pub": "Published",
   "name": "BELLA+CANVAS ® Unisex Jersey Muscle Tank BC3483",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219519471783"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103696,
   "pub": "Published",
   "name": "Sport-Tek ® PosiCharge ® Reversible Mesh Tank ST5000",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219519832231"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103697,
   "pub": "Published",
   "name": "Sport-Tek ® Sleeveless PosiCharge ® Competitor Tee. ST352",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219521175719"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103698,
   "pub": "Published",
   "name": "Port & Co ® Beach Wash ® Garment-Dyed Tank. PC099TT",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219521863847"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103699,
   "pub": "Published",
-  "name": "Sport-Tek ® Women's PosiCharge ® Tri-Blend Wicking Tank. L",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219522715815"
+  "name": "Sport-Tek ® Women's PosiCharge ® Tri-Blend Wicking Tank. LST402",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103700,
   "pub": "Published",
   "name": "District ® Women's Perfect Tri ® Rocker Tank. DT137L",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219523502247"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103701,
   "pub": "Published",
-  "name": "BELLA+CANVAS ® Women's Micro Rib Spaghetti Strap Tank BC10",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219524616359"
+  "name": "BELLA+CANVAS ® Women's Micro Rib Spaghetti Strap Tank BC1012",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103702,
   "pub": "Published",
   "name": "BELLA+CANVAS ® Women's Jersey Muscle Tank. BC6003",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219525763239"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103703,
   "pub": "Published",
   "name": "BELLA+CANVAS ® Women's Racerback Cropped Tank. BC6682",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219526353063"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103704,
   "pub": "Published",
   "name": "Next Level Apparel ® Women's Ideal Racerback Tank NL1533",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219526975655"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103705,
   "pub": "Published",
-  "name": "Port & Co ® Youth Easy Fleece Pullover Hooded Sweatshirt P",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219528024231"
+  "name": "Port & Co ® Youth Easy Fleece Pullover Hooded Sweatshirt PC68YH",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103706,
   "pub": "Published",
-  "name": "Port & Co ® Toddler Core Fleece Pullover Hooded Sweatshirt",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219529597095"
+  "name": "Port & Co ® Toddler Core Fleece Pullover Hooded Sweatshirt. CAR78TH",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103707,
   "pub": "Published",
   "name": "Gildan ® Youth Softstyle ® Midweight Fleece Hoodie SF500B",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219529924775"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103708,
   "pub": "Published",
-  "name": "Jerzees ® - Youth NuBlend ® Pullover Hooded Sweatshirt. 99",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219530907815"
+  "name": "Jerzees ® - Youth NuBlend ® Pullover Hooded Sweatshirt. 996Y",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103709,
   "pub": "Published",
   "name": "BELLA+CANVAS ® Youth Sponge Fleece Pullover Hoodie BC3719Y",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219532349607"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103710,
   "pub": "Published",
   "name": "Port & Co ® Core Fleece Pullover Hooded Sweatshirt. PC78H",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219532644519"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103711,
   "pub": "Published",
   "name": "Jerzees ® NuBlend ® Pullover Hooded Sweatshirt. 996M",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219535757479"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103713,
   "pub": "Published",
   "name": "District ® V.I.T.  Heavyweight Fleece Hoodie DT6150",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219537658023"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103714,
   "pub": "Published",
-  "name": "Stanley/Stella ® Unisex Drummer 2.0 Hooded Sweatshirt SXU0",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219538739367"
+  "name": "Stanley/Stella ® Unisex Drummer 2.0 Hooded Sweatshirt SXU009",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103715,
   "pub": "Published",
   "name": "Nike Club Fleece Sleeve Swoosh Pullover Hoodie NKDR1499",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219539689639"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103716,
   "pub": "Published",
   "name": "Carhartt ® Midweight Hooded Sweatshirt. CTK121",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219541295271"
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103717,
   "pub": "Published",
-  "name": "BELLA+CANVAS ® Women's Sponge Fleece Cropped Fleece Hoodie",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219541721255"
+  "name": "BELLA+CANVAS ® Women's Sponge Fleece Cropped Fleece Hoodie. BC7502",
+  "batch": true,
+  "shop": "ACTIVE"
  },
  {
   "zk": 10103719,
   "pub": "Published",
-  "name": "Nike Women's Club Fleece Sleeve Swoosh Pullover Hoodie NKF",
-  "shop": "DRAFT",
-  "kind": "BATCH",
-  "code": "11219541950631"
+  "name": "Nike Women's Club Fleece Sleeve Swoosh Pullover Hoodie NKFD9889",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103783,
+  "pub": "Published",
+  "name": "Port & Co ® Essential Fleece Crewneck Sweatshirt. PC90",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103784,
+  "pub": "Published",
+  "name": "Nike Club Fleece Sleeve Swoosh Crew NKFD9863",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103785,
+  "pub": "Published",
+  "name": "Carhartt ® Midweight Crewneck Sweatshirt. CTK124",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103786,
+  "pub": "Published",
+  "name": "Port & Co ® Youth Core Fleece Crewneck Sweatshirt PC78Y",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103787,
+  "pub": "Published",
+  "name": "Sport-Tek ® Stretch-Tek 5-Panel Trucker Cap STC75",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103789,
+  "pub": "Published",
+  "name": "Port Authority ® Flexfit ® Melange Unipanel  Cap C946",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103790,
+  "pub": "Published",
+  "name": "Sport-Tek ® YP Classics ® Premium 5-Panel Snapback Cap STC55",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103791,
+  "pub": "Published",
+  "name": "New Era ® 39THIRTY ® Performance Stretch Mesh Cap NE1130",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103792,
+  "pub": "Published",
+  "name": "Carhartt ® Rugged Professional  Series Cap CT106687",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103793,
+  "pub": "Published",
+  "name": "Nike Heritage Cotton Twill Cap NKFB5677",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103794,
+  "pub": "Published",
+  "name": "New Era ® Pivot Flat Bill Snapback Cap NE409",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103795,
+  "pub": "Published",
+  "name": "Nike Dri-FIT Stretch Mesh Sandwich Bill Cap NKFD9718",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103797,
+  "pub": "Published",
+  "name": "Port & Co ® Youth Easy Cotton Tee PC43Y",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103798,
+  "pub": "Published",
+  "name": "Gildan ® Youth Light Cotton Tee 3000B",
+  "batch": true,
+  "shop": "ACTIVE"
+ },
+ {
+  "zk": 10103799,
+  "pub": "Published",
+  "name": "Gildan ® - Youth Ultra Cotton ® 100% US Cotton T-Shirt. 2000B",
+  "batch": true,
+  "shop": "ACTIVE"
  }
 ]
