@@ -1,0 +1,274 @@
+[
+ {
+  "id": "330683449511",
+  "handle": "all",
+  "title": "All",
+  "smart": true,
+  "live": 102,
+  "plist": 85,
+  "older": 17,
+  "titles": [
+   "DTF Transfers By Size",
+   "Customblvd Gang Sheet Builder",
+   "Gildan Women's Ultra Cotton 100% US Cott",
+   "Sport-Tek Super Heavyweight Crewneck Swe",
+   "Sport-Tek Sport-Wick Fleece 1/4-Zip Pull",
+   "Gildan Heavy Blend Sweatpant. 18200",
+   "Gildan Youth Heavy Blend Crewneck Sweats",
+   "Port Authority Unstructured Brushed Twil",
+   "Ceramic Mug",
+   "Medium Cotton Canvas Tote Bag",
+   "Jacket Carhartt Quilted Flannel Lined Du",
+   "Sweatshirt Jerzees NuBlend Fleece",
+   "Sweatshirt Gildan Heavy Blend Fleece",
+   "Long Sleeve T-shirt Port & Company Core ",
+   "Hoodie Port & Company Core Fleece Pullov",
+   "T-Shirt Gildan - Heavy Cotton 100% Cotto",
+   "Port & Company Core Cotton T-shirt"
+  ]
+ },
+ {
+  "id": "334181007527",
+  "handle": "all-products",
+  "title": "All Products",
+  "smart": true,
+  "live": 102,
+  "plist": 85,
+  "older": 17,
+  "titles": [
+   "DTF Transfers By Size",
+   "Customblvd Gang Sheet Builder",
+   "Gildan Women's Ultra Cotton 100% US Cott",
+   "Sport-Tek Super Heavyweight Crewneck Swe",
+   "Sport-Tek Sport-Wick Fleece 1/4-Zip Pull",
+   "Gildan Heavy Blend Sweatpant. 18200",
+   "Gildan Youth Heavy Blend Crewneck Sweats",
+   "Port Authority Unstructured Brushed Twil",
+   "Ceramic Mug",
+   "Medium Cotton Canvas Tote Bag",
+   "Jacket Carhartt Quilted Flannel Lined Du",
+   "Sweatshirt Jerzees NuBlend Fleece",
+   "Sweatshirt Gildan Heavy Blend Fleece",
+   "Long Sleeve T-shirt Port & Company Core ",
+   "Hoodie Port & Company Core Fleece Pullov",
+   "T-Shirt Gildan - Heavy Cotton 100% Cotto",
+   "Port & Company Core Cotton T-shirt"
+  ]
+ },
+ {
+  "id": "331409424551",
+  "handle": "custom-t-shirts",
+  "title": "Custom T-shirts",
+  "smart": false,
+  "live": 40,
+  "plist": 39,
+  "older": 1,
+  "titles": [
+   "Gildan Women's Ultra Cotton 100% US Cott"
+  ]
+ },
+ {
+  "id": "331409457319",
+  "handle": "short-sleeve-t-shirts",
+  "title": "Short Sleeve T-shirts",
+  "smart": false,
+  "live": 33,
+  "plist": 30,
+  "older": 3,
+  "titles": [
+   "Gildan Women's Ultra Cotton 100% US Cott",
+   "T-Shirt Gildan - Heavy Cotton 100% Cotto",
+   "Port & Company Core Cotton T-shirt"
+  ]
+ },
+ {
+  "id": "330677715111",
+  "handle": "hoodies-sweatshirts",
+  "title": "Custom Hoodies & Sweatshirts",
+  "smart": false,
+  "live": 25,
+  "plist": 19,
+  "older": 6,
+  "titles": [
+   "Sport-Tek Super Heavyweight Crewneck Swe",
+   "Gildan Heavy Blend Sweatpant. 18200",
+   "Gildan Youth Heavy Blend Crewneck Sweats",
+   "Sweatshirt Jerzees NuBlend Fleece",
+   "Sweatshirt Gildan Heavy Blend Fleece",
+   "Hoodie Port & Company Core Fleece Pullov"
+  ]
+ },
+ {
+  "id": "352559038631",
+  "handle": "womens-t-shirts",
+  "title": "Women's T-shirts",
+  "smart": false,
+  "live": 13,
+  "plist": 12,
+  "older": 1,
+  "titles": [
+   "Gildan Women's Ultra Cotton 100% US Cott"
+  ]
+ },
+ {
+  "id": "331410210983",
+  "handle": "hats",
+  "title": "Hats",
+  "smart": false,
+  "live": 12,
+  "plist": 11,
+  "older": 1,
+  "titles": [
+   "Port Authority Unstructured Brushed Twil"
+  ]
+ },
+ {
+  "id": "352559071399",
+  "handle": "long-sleeve-t-shirts",
+  "title": "Long Sleeve T-Shirts",
+  "smart": false,
+  "live": 12,
+  "plist": 11,
+  "older": 1,
+  "titles": [
+   "Long Sleeve T-shirt Port & Company Core "
+  ]
+ },
+ {
+  "id": "330677780647",
+  "handle": "long-sleeve",
+  "title": "Custom Long Sleeve Shirts",
+  "smart": false,
+  "live": 11,
+  "plist": 11,
+  "older": 0,
+  "titles": []
+ },
+ {
+  "id": "352559661223",
+  "handle": "activewear",
+  "title": "Activewear",
+  "smart": false,
+  "live": 10,
+  "plist": 9,
+  "older": 1,
+  "titles": [
+   "Sport-Tek Sport-Wick Fleece 1/4-Zip Pull"
+  ]
+ },
+ {
+  "id": "331496161447",
+  "handle": "polo-shirts",
+  "title": "Custom Polo Shirts",
+  "smart": false,
+  "live": 5,
+  "plist": 5,
+  "older": 0,
+  "titles": []
+ },
+ {
+  "id": "331046158503",
+  "handle": "dtf",
+  "title": "DTF",
+  "smart": false,
+  "live": 2,
+  "plist": 0,
+  "older": 2,
+  "titles": [
+   "DTF Transfers By Size",
+   "Customblvd Gang Sheet Builder"
+  ]
+ },
+ {
+  "id": "330684465319",
+  "handle": "dtf-transfer-by-size",
+  "title": "DTF Transfer By Size",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "DTF Transfers By Size"
+  ]
+ },
+ {
+  "id": "330684629159",
+  "handle": "build-gang-sheet",
+  "title": "Build Gang Sheet",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "Customblvd Gang Sheet Builder"
+  ]
+ },
+ {
+  "id": "331045208231",
+  "handle": "port-company-hoodie",
+  "title": "Port & Company Hoodie",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "Hoodie Port & Company Core Fleece Pullov"
+  ]
+ },
+ {
+  "id": "352148947111",
+  "handle": "jackets",
+  "title": "Jackets",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "Jacket Carhartt Quilted Flannel Lined Du"
+  ]
+ },
+ {
+  "id": "352171032743",
+  "handle": "bags",
+  "title": "Bags",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "Medium Cotton Canvas Tote Bag"
+  ]
+ },
+ {
+  "id": "352171851943",
+  "handle": "mugs",
+  "title": "Mugs",
+  "smart": false,
+  "live": 1,
+  "plist": 0,
+  "older": 1,
+  "titles": [
+   "Ceramic Mug"
+  ]
+ },
+ {
+  "id": "330677813415",
+  "handle": "tshirt",
+  "title": "Custom Tshirt",
+  "smart": false,
+  "live": 0,
+  "plist": 0,
+  "older": 0,
+  "titles": []
+ },
+ {
+  "id": "330684563623",
+  "handle": "upload-gang-sheet-1",
+  "title": "Upload Gang Sheet",
+  "smart": false,
+  "live": 0,
+  "plist": 0,
+  "older": 0,
+  "titles": []
+ }
+]
