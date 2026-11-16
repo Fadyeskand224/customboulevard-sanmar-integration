@@ -6,12 +6,12 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const { downloadSanmarFiles } = require('./sftp');
-const { getClient, getLocationId, setInventoryLevel, sleep } = require('./shopify');
+const { getClient, getLocationId, setInventoryLevelsBatch, sleep } = require('./shopify');
 
 const RAW_DIR = path.join(__dirname, '../data/raw');
 const DIP_FILE = path.join(RAW_DIR, 'sanmar_dip.txt');
 
-const REQUEST_DELAY_MS = 600;
+const REQUEST_DELAY_MS = 250;
 
 // sanmar_dip.txt is pipe-delimited with ONE ROW PER WAREHOUSE per SKU.
 // Field positions per the SanMar FTP Integration Guide's Sanmar_dip.txt spec:
@@ -157,10 +157,13 @@ async function runInventorySync() {
   const variants = await fetchAllVariants(client);
   console.log(`Found ${variants.length} variants on live products`);
 
-  // 5. Update inventory where qty differs
+  // 5. Collect every variant whose qty differs, then write them in batches
+  // (100 per request) instead of one slow request per variant.
   let updated = 0;
   let unchanged = 0;
   let notFound = 0;
+  let failed = 0;
+  const changes = [];
 
   for (const variant of variants) {
     const sku = (variant.sku || '').trim();
@@ -170,26 +173,37 @@ async function runInventorySync() {
     }
 
     const newQty = sanmarInventory.get(sku);
-    const currentQty = variant.inventory_quantity;
-
-    if (newQty === currentQty) {
+    if (newQty === variant.inventory_quantity) {
       unchanged++;
       continue;
     }
-
-    try {
-      await setInventoryLevel(client, locationId, variant.inventory_item_id, newQty);
-      console.log(`  Updated ${sku}: ${currentQty} → ${newQty}`);
-      updated++;
-    } catch (err) {
-      const detail = err.response ? JSON.stringify(err.response.data) : err.message;
-      console.error(`  Error updating ${sku}: ${detail}`);
-    }
-
-    await sleep(REQUEST_DELAY_MS);
+    changes.push({ sku, inventoryItemId: variant.inventory_item_id, quantity: newQty, was: variant.inventory_quantity });
   }
+  console.log(`${changes.length} variants need an update`);
 
-  console.log(`\nSync complete. Updated: ${updated} | Unchanged: ${unchanged} | Not in DIP: ${notFound}`);
+  const BATCH = 100;
+  for (let i = 0; i < changes.length; i += BATCH) {
+    const batch = changes.slice(i, i + BATCH);
+    try {
+      const errors = await setInventoryLevelsBatch(locationId, batch);
+      if (errors.length) {
+        failed += batch.length;
+        console.error(`  Batch ${i / BATCH + 1} errors: ${JSON.stringify(errors).slice(0, 300)}`);
+      } else {
+        updated += batch.length;
+      }
+    } catch (err) {
+      failed += batch.length;
+      const detail = err.response ? JSON.stringify(err.response.data).slice(0, 300) : err.message;
+      console.error(`  Batch ${i / BATCH + 1} failed: ${detail}`);
+    }
+    console.log(`  Progress: ${Math.min(i + BATCH, changes.length)}/${changes.length}`);
+    await sleep(500);
+  }
+  if (failed) console.log(`Failed to update ${failed} variants`);
+
+  console.log(`\nSync complete. Updated: ${updated} | Unchanged: ${unchanged} | Not in DIP: ${notFound} | Failed: ${failed}`);
+  if (failed) process.exitCode = 1; // surface failures in the Actions run
 }
 
 // Allow running standalone: node src/inventory-sync.js

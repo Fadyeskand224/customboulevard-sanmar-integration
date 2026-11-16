@@ -357,4 +357,42 @@ async function setInventoryLevel(client, locationId, inventoryItemId, available)
   });
 }
 
-module.exports = { getClient, getAccessToken, bulkImportProducts, getLocationId, setInventoryLevel, sleep, linkVariantImages, uploadImageAsset };
+
+/**
+ * Sets many inventory levels in one call (up to ~250 per request) via the
+ * GraphQL inventorySetQuantities mutation. The one-item-per-request REST
+ * path took ~1s per variant, which let a backlog of stock changes outrun the
+ * 45-minute GitHub Actions limit. ignoreCompareQuantity makes SanMar's number
+ * win outright, the same as the REST "set" call did.
+ * changes: [{ inventoryItemId: number, quantity: number }]
+ */
+const GRAPHQL_VERSION = '2025-07';
+async function setInventoryLevelsBatch(locationId, changes) {
+  if (!changes.length) return [];
+  const token = await getAccessToken();
+  const res = await axios.post(
+    `https://${process.env.SHOPIFY_STORE_DOMAIN}/admin/api/${GRAPHQL_VERSION}/graphql.json`,
+    {
+      query: `mutation($input: InventorySetQuantitiesInput!) {
+        inventorySetQuantities(input: $input) { userErrors { field message } }
+      }`,
+      variables: {
+        input: {
+          name: 'available',
+          reason: 'correction',
+          ignoreCompareQuantity: true,
+          quantities: changes.map((c) => ({
+            inventoryItemId: `gid://shopify/InventoryItem/${c.inventoryItemId}`,
+            locationId: `gid://shopify/Location/${locationId}`,
+            quantity: c.quantity,
+          })),
+        },
+      },
+    },
+    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' }, timeout: 60000 }
+  );
+  if (res.data.errors) throw new Error(JSON.stringify(res.data.errors).slice(0, 300));
+  return res.data.data.inventorySetQuantities.userErrors;
+}
+
+module.exports = { getClient, getAccessToken, bulkImportProducts, getLocationId, setInventoryLevel, setInventoryLevelsBatch, sleep, linkVariantImages, uploadImageAsset };

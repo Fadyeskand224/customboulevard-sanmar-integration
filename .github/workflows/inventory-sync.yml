@@ -8,6 +8,13 @@ on:
     - cron: '17 * * * *' # hourly, off the top of the hour to dodge Actions congestion
   workflow_dispatch: {} # "Run workflow" button for manual runs
 
+# Public repos get unlimited free Actions minutes, but GitHub switches off
+# scheduled workflows after 60 days without repo activity. The last step below
+# re-enables this workflow on every run, which resets that timer.
+permissions:
+  contents: read
+  actions: write
+
 # Never run two syncs at once; a late run waits rather than being cancelled
 # mid-write to Shopify.
 concurrency:
@@ -39,3 +46,10 @@ jobs:
           SANMAR_SFTP_PORT: ${{ secrets.SANMAR_SFTP_PORT }}
           SANMAR_SFTP_USERNAME: ${{ secrets.SANMAR_SFTP_USERNAME }}
           SANMAR_SFTP_PASSWORD: ${{ secrets.SANMAR_SFTP_PASSWORD }}
+
+      - name: Keep the schedule alive
+        if: always()
+        run: gh workflow enable inventory-sync.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
